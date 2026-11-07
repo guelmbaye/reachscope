@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/d0af1437-e37a-4efe-a605-0c2df503edc5>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 9f1f12e0-69cd-43c4-b2fb-8ce34849f564
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 9f1f12e0-69cd-43c4-b2fb-8ce34849f564
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 3be32509-2624-471c-ac8d-3594ab870932
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/3be32509-2624-471c-ac8d-3594ab870932>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 769905d8-a162-43f5-9d0b-7781706b2a4b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    label: false
+    labelColor: false
+    labelSize: false
+    sizeCm: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - sizeCm: !<float> 8.000000
+      label: RESET
+      labelSize: !<float> 50.000000
+      labelColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">ReachscopeResetButtonUI – RESET pinch button</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float sizeCm = 8 {"hint":"Button face size in cm (square).", "widget":"slider", "min":4, "max":14, "step":0.5}'
+    - '// @input string label = "RESET" {"hint":"Button label text."}'
+    - '// @input float labelSize = 50 {"hint":"Label text size (Lens Text size units).", "widget":"slider", "min":30, "max":90, "step":1}'
+    - '// @input vec4 labelColor = "{1, 1, 1, 1}" {"hint":"Label color (keep light — the display is additive).", "widget":"color"}'
+    - '// @ui {"widget":"group_end"}'

@@ -1,0 +1,73 @@
+I 18:12:30.477 [REACHSCOPE] reset pinched
+I 18:12:35.795 [REACHSCOPE] grab AssistanceButton
+I 18:12:36.064 [REACHSCOPE] release AssistanceButton verdict=PATH BLOCKED dist=50.0
+I 18:12:42.848 [REACHSCOPE] grab Divider
+I 18:12:44.170 [REACHSCOPE] clear pulse started (0.40 s)
+I 18:12:44.170 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=50.0 button=(10.0,-150.0) divider=(9.3,-151.6)
+I 18:12:45.195 [REACHSCOPE] release Divider verdict=DIRECT PATH CLEAR dist=50.0
+I 18:12:49.417 [REACHSCOPE] grab AssistanceButton
+I 18:12:49.541 [REACHSCOPE] release AssistanceButton verdict=DIRECT PATH CLEAR dist=50.0
+I 18:12:51.930 [REACHSCOPE] grab AssistanceButton
+I 18:12:52.267 [REACHSCOPE] verdict=PATH BLOCKED dist=53.0 button=(15.3,-152.7) divider=(9.4,-153.2)
+I 18:12:52.358 [REACHSCOPE] clear pulse started (0.40 s)
+I 18:12:52.358 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=56.1 button=(21.2,-154.9) divider=(9.4,-153.2)
+I 18:12:53.722 [REACHSCOPE] verdict=TOO FAR dist=66.6 button=(44.6,-156.9) divider=(9.4,-153.2)
+I 18:12:55.345 [REACHSCOPE] clear pulse started (0.40 s)
+I 18:12:55.346 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=63.9 button=(29.1,-161.0) divider=(9.4,-153.2)
+I 18:12:56.038 [REACHSCOPE] verdict=TOO FAR dist=65.0 button=(32.6,-161.0) divider=(9.4,-153.2)
+I 18:12:56.361 [REACHSCOPE] clear pulse started (0.40 s)
+I 18:12:56.361 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=64.7 button=(31.7,-161.0) divider=(9.4,-153.2)
+I 18:12:56.634 [REACHSCOPE] verdict=PATH BLOCKED dist=61.1 button=(14.3,-161.0) divider=(9.4,-153.2)
+I 18:12:57.084 [REACHSCOPE] clear pulse started (0.40 s)
+I 18:12:57.084 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=62.3 button=(-2.8,-161.0) divider=(9.4,-153.2)
+I 18:13:01.490 [REACHSCOPE] verdict=PATH BLOCKED dist=53.4 button=(9.1,-153.4) divider=(9.4,-153.2)
+I 18:13:02.043 [REACHSCOPE] release AssistanceButton verdict=PATH BLOCKED dist=57.8
+I 18:13:03.323 [REACHSCOPE] grab AssistanceButton
+I 18:13:03.596 [REACHSCOPE] clear pulse started (0.40 s)
+I 18:13:03.596 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=48.3 button=(9.7,-148.3) divider=(9.4,-153.2)
+I 18:13:04.840 [REACHSCOPE] release AssistanceButton verdict=DIRECT PATH CLEAR dist=18.4
+I 18:13:05.462 [REACHSCOPE] grab AssistanceButton
+I 18:13:05.915 [REACHSCOPE] verdict=PATH BLOCKED dist=54.5 button=(9.6,-154.5) divider=(9.4,-153.2)
+I 18:13:07.006 [REACHSCOPE] release AssistanceButton verdict=PATH BLOCKED dist=56.2
+I 18:13:08.761 [REACHSCOPE] grab Divider
+I 18:13:10.929 [REACHSCOPE] clear pulse started (0.40 s)
+I 18:13:10.929 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=56.2 button=(9.8,-156.2) divider=(9.2,-160.4)
+I 18:13:12.922 [REACHSCOPE] verdict=PATH BLOCKED dist=56.2 button=(9.8,-156.2) divider=(8.2,-156.9)
+I 18:13:13.860 [REACHSCOPE] release Divider verdict=PATH BLOCKED dist=56.2
+I 18:13:15.150 [REACHSCOPE] grab AssistanceButton
+I 18:13:15.450 [REACHSCOPE] clear pulse started (0.40 s)
+I 18:13:15.451 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=51.7 button=(9.8,-151.7) divider=(8.2,-156.3)
+I 18:13:17.638 [REACHSCOPE] verdict=PATH BLOCKED dist=56.4 button=(9.0,-156.4) divider=(8.2,-156.3)
+I 18:13:19.144 [REACHSCOPE] clear pulse started (0.40 s)
+I 18:13:19.145 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=57.5 button=(18.5,-156.8) divider=(8.2,-156.3)
+I 18:13:19.783 [REACHSCOPE] verdict=TOO FAR dist=65.5 button=(33.7,-161.0) divider=(8.2,-156.3)
+I 18:13:20.734 [REACHSCOPE] clear pulse started (0.40 s)
+I 18:13:20.735 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=64.1 button=(56.0,-144.6) divider=(8.2,-156.3)
+I 18:13:21.175 [REACHSCOPE] verdict=TOO FAR dist=68.7 button=(53.7,-153.0) divider=(8.2,-156.3)
+I 18:13:21.363 [REACHSCOPE] clear pulse started (0.40 s)
+I 18:13:21.363 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=64.2 button=(35.1,-159.1) divider=(8.2,-156.3)
+I 18:13:24.472 [REACHSCOPE] release AssistanceButton verdict=DIRECT PATH CLEAR dist=22.4
+I 18:13:25.722 [REACHSCOPE] reset pinched
+I 18:13:25.722 [REACHSCOPE] verdict=PATH BLOCKED dist=50.0 button=(10.0,-150.0) divider=(10.0,-125.0)
+I 18:14:33.210 [REACHSCOPE] reset pinched
+I 18:14:35.246 [REACHSCOPE] grab Divider
+I 18:14:37.185 [REACHSCOPE] release Divider verdict=PATH BLOCKED dist=50.0
+I 18:14:38.082 [REACHSCOPE] reset pinched
+I 18:14:39.697 [REACHSCOPE] grab AssistanceButton
+I 18:14:41.621 [REACHSCOPE] clear pulse started (0.40 s)
+I 18:14:41.622 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=21.3 button=(9.8,-121.3) divider=(10.0,-125.0)
+I 18:14:42.726 [REACHSCOPE] verdict=PATH BLOCKED dist=25.3 button=(9.3,-125.3) divider=(10.0,-125.0)
+I 18:14:44.333 [REACHSCOPE] clear pulse started (0.40 s)
+I 18:14:44.334 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=57.2 button=(37.3,-150.3) divider=(10.0,-125.0)
+I 18:14:45.327 [REACHSCOPE] verdict=TOO FAR dist=69.8 button=(49.3,-157.7) divider=(10.0,-125.0)
+I 18:14:46.863 [REACHSCOPE] clear pulse started (0.40 s)
+I 18:14:46.864 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=61.6 button=(56.0,-140.9) divider=(10.0,-125.0)
+I 18:14:48.634 [REACHSCOPE] verdict=PATH BLOCKED dist=26.3 button=(14.9,-125.9) divider=(10.0,-125.0)
+I 18:14:51.994 [REACHSCOPE] clear pulse started (0.40 s)
+I 18:14:51.995 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=47.4 button=(-11.2,-142.4) divider=(10.0,-125.0)
+I 18:14:54.998 [REACHSCOPE] verdict=PATH BLOCKED dist=29.6 button=(0.9,-128.2) divider=(10.0,-125.0)
+I 18:14:55.554 [REACHSCOPE] clear pulse started (0.40 s)
+I 18:14:55.555 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=35.3 button=(25.8,-131.5) divider=(10.0,-125.0)
+I 18:14:56.673 [REACHSCOPE] release AssistanceButton verdict=DIRECT PATH CLEAR dist=43.9
+I 18:14:57.506 [REACHSCOPE] reset pinched
+I 18:14:57.506 [REACHSCOPE] verdict=PATH BLOCKED dist=50.0 button=(10.0,-150.0) divider=(10.0,-125.0)

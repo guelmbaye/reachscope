@@ -1,0 +1,67 @@
+I 17:32:04.369 I [DefaultLeafScenarioManager] [  0.138s]Register scenario: ac01-initial-blocked
+I 17:32:04.369 I [DefaultLeafScenarioManager] [  0.139s]Register scenario: ac02-move-button-clear
+I 17:32:04.370 I [DefaultLeafScenarioManager] [  0.140s]Register scenario: ac03-divider-reversible
+I 17:32:04.370 I [DefaultLeafScenarioManager] [  0.140s]Register scenario: ac04-too-far
+I 17:32:04.371 I [DefaultLeafScenarioManager] [  0.140s]Register scenario: ac05-reset-repeat
+I 17:32:04.509 [REACHSCOPE] verdict=PATH BLOCKED dist=50.0 button=(10.0,-150.0) divider=(10.0,-125.0)
+I 17:32:05.443 I [DefaultLeafScenarioManager] [  0.000s]RUNS: ac02-move-button-clear with args: []
+I 17:32:05.443 I [DefaultLeafScenarioManager] [  0.001s]Running with runner config: {"__leaf__log_level":"INFO","__leaf__timeout_secs":"120","__leaf__diagnostic_policy":"fallback","__leaf__diagnostic_report_duration_ms":"-1"}
+I 17:32:06.991 [REACHSCOPE-LEAF] === AC-02 move button 30 cm sideways (real LEAF SIK drag) ===
+I 17:32:07.005 [REACHSCOPE-LEAF] AC-02 before: verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+I 17:32:07.005 [REACHSCOPE-LEAF] PASS AC-02 before verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+I 17:32:07.006 [REACHSCOPE-LEAF] PASS AC-02 before distance matches :: lens=50.000 expected=50.000
+I 17:32:07.006 [REACHSCOPE-LEAF] PASS AC-02 before crossing matches :: lens=true expected=true
+I 17:32:07.006 [REACHSCOPE-LEAF] PASS AC-02 before label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+I 17:32:07.006 [REACHSCOPE-LEAF] PASS AC-02 before intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+I 17:32:07.007 [REACHSCOPE-LEAF] PASS AC-02 before line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+I 17:32:07.007 [REACHSCOPE-LEAF] PASS AC-02 before button on countertop (Y) :: button.y=-62.000
+I 17:32:07.007 [REACHSCOPE-LEAF] PASS AC-02 before divider on countertop (Y) :: divider.y=-62.000
+I 17:32:07.007 [REACHSCOPE-LEAF] PASS AC-02 precondition PATH BLOCKED :: PATH BLOCKED
+I 17:32:07.310 [REACHSCOPE] grab AssistanceButton
+I 17:32:07.761 [REACHSCOPE] release AssistanceButton verdict=PATH BLOCKED dist=50.0
+I 17:32:08.120 [REACHSCOPE-LEAF] AC-02 after stock LEAF drag(0.15cm/update, 400ms): button=(10.60,-62.00,-150.00) verdict=PATH BLOCKED
+I 17:32:08.120 [REACHSCOPE-LEAF] PASS AC-02 stock LEAF drag moved button along +X :: dx=0.60
+I 17:32:08.120 [REACHSCOPE-LEAF] PASS AC-02 stock drag kept Z :: dz=0.000
+I 17:32:08.120 [REACHSCOPE-LEAF] PASS AC-02 drag start/end events fired :: grab=true release=true
+I 17:32:08.436 [REACHSCOPE] grab AssistanceButton
+I 17:32:10.531 [REACHSCOPE] clear pulse started (0.40 s)
+I 17:32:10.531 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=54.3 button=(31.2,-150.0) divider=(10.0,-125.0)
+I 17:32:11.644 [REACHSCOPE] release AssistanceButton verdict=DIRECT PATH CLEAR dist=58.3
+I 17:32:11.913 [REACHSCOPE-LEAF] AC-02 dragTo done frames=43 final=(40.00,-62.00,-150.00) verdicts-while-held=PATH BLOCKED -> DIRECT PATH CLEAR
+I 17:32:11.913 [REACHSCOPE-LEAF] PASS AC-02 button was in grabbed state during drag :: draggingFrames=43
+I 17:32:11.913 [REACHSCOPE-LEAF] PASS AC-02 path/distance updated while dragging :: distinct distances while held=37
+I 17:32:11.914 [REACHSCOPE-LEAF] PASS AC-02 verdict changed BLOCKED -> CLEAR while held :: PATH BLOCKED -> DIRECT PATH CLEAR
+I 17:32:11.914 [REACHSCOPE-LEAF] PASS AC-02 Y stayed pinned to -62 while held :: max|y+62|=0.0000
+I 17:32:11.914 [REACHSCOPE-LEAF] PASS AC-02 rotation untouched while held :: changed=false
+I 17:32:12.748 [REACHSCOPE-LEAF] AC-02 after release: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false label="DIRECT PATH CLEAR" mark=false button=(40.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false
+I 17:32:12.748 [REACHSCOPE-LEAF] PASS AC-02 after release verdict matches independent geometry :: lens=DIRECT PATH CLEAR expected=DIRECT PATH CLEAR
+I 17:32:12.749 [REACHSCOPE-LEAF] PASS AC-02 after release distance matches :: lens=58.310 expected=58.310
+I 17:32:12.750 [REACHSCOPE-LEAF] PASS AC-02 after release crossing matches :: lens=false expected=false
+I 17:32:12.750 [REACHSCOPE-LEAF] PASS AC-02 after release label text matches verdict :: label="DIRECT PATH CLEAR" verdict=DIRECT PATH CLEAR
+I 17:32:12.750 [REACHSCOPE-LEAF] PASS AC-02 after release intersection mark shown iff BLOCKED :: markEnabled=false verdict=DIRECT PATH CLEAR
+I 17:32:12.750 [REACHSCOPE-LEAF] PASS AC-02 after release line color matches verdict :: line=(0.35,1.00,0.45) want=(0.35,1.00,0.45)
+I 17:32:12.751 [REACHSCOPE-LEAF] PASS AC-02 after release button on countertop (Y) :: button.y=-62.000
+I 17:32:12.751 [REACHSCOPE-LEAF] PASS AC-02 after release divider on countertop (Y) :: divider.y=-62.000
+I 17:32:12.751 [REACHSCOPE-LEAF] PASS AC-02 button reached ~30 cm sideways :: button=(40.00,-62.00,-150.00) goal=(40,-150)
+I 17:32:12.751 [REACHSCOPE-LEAF] PASS AC-02 verdict DIRECT PATH CLEAR :: DIRECT PATH CLEAR
+I 17:32:12.751 [REACHSCOPE-LEAF] PASS AC-02 dist ≈ 58.3 :: dist=58.31
+I 17:32:12.752 [REACHSCOPE-LEAF] PASS AC-02 label DIRECT PATH CLEAR :: label="DIRECT PATH CLEAR"
+I 17:32:12.752 [REACHSCOPE-LEAF] PASS AC-02 exactly one clear pulse :: pulses=1
+I 17:32:12.752 [REACHSCOPE-LEAF] PASS AC-02 pulse is one-shot (finished) :: pulsing=false
+I 17:32:12.752 [REACHSCOPE-LEAF] PASS AC-02 not dragging after release :: isDragging=false
+I 17:32:12.753 [REACHSCOPE-LEAF] PASS AC-02 rotation unchanged :: before=(1.0000,0.0000,0.0000,0.0000) after=(1.0000,0.0000,0.0000,0.0000)
+I 17:32:13.816 [REACHSCOPE-LEAF] AC-02 1 s after release: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false label="DIRECT PATH CLEAR" mark=false button=(40.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false
+I 17:32:13.816 [REACHSCOPE-LEAF] PASS AC-02 1 s after release verdict matches independent geometry :: lens=DIRECT PATH CLEAR expected=DIRECT PATH CLEAR
+I 17:32:13.816 [REACHSCOPE-LEAF] PASS AC-02 1 s after release distance matches :: lens=58.310 expected=58.310
+I 17:32:13.817 [REACHSCOPE-LEAF] PASS AC-02 1 s after release crossing matches :: lens=false expected=false
+I 17:32:13.817 [REACHSCOPE-LEAF] PASS AC-02 1 s after release label text matches verdict :: label="DIRECT PATH CLEAR" verdict=DIRECT PATH CLEAR
+I 17:32:13.817 [REACHSCOPE-LEAF] PASS AC-02 1 s after release intersection mark shown iff BLOCKED :: markEnabled=false verdict=DIRECT PATH CLEAR
+I 17:32:13.817 [REACHSCOPE-LEAF] PASS AC-02 1 s after release line color matches verdict :: line=(0.35,1.00,0.45) want=(0.35,1.00,0.45)
+I 17:32:13.818 [REACHSCOPE-LEAF] PASS AC-02 1 s after release button on countertop (Y) :: button.y=-62.000
+I 17:32:13.818 [REACHSCOPE-LEAF] PASS AC-02 1 s after release divider on countertop (Y) :: divider.y=-62.000
+I 17:32:13.819 [REACHSCOPE-LEAF] PASS AC-02 position kept after release :: (40.00,-62.00,-150.00) -> (40.00,-62.00,-150.00)
+I 17:32:13.819 [REACHSCOPE-LEAF] PASS AC-02 verdict kept after release :: DIRECT PATH CLEAR
+I 17:32:13.819 [REACHSCOPE-LEAF] PASS AC-02 still exactly one pulse :: pulses=1
+I 17:32:13.819 [REACHSCOPE-LEAF] === AC-02 done ===
+I 17:32:13.820 I [DefaultLeafScenarioManager] [  8.378s]PASSED: ac02-move-button-clear
+I 17:32:13.820 I [DefaultLeafScenarioManager] [  8.378s][ac02-move-button-clear] PASSED

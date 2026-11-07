@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/56b99887-d0b1-42a4-908b-44dffaa045df>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 91a0080d-fc66-415a-b74a-4d3b2dd0700e
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 91a0080d-fc66-415a-b74a-4d3b2dd0700e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 819f7189-5d9f-4df7-9884-3941398e7553
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/819f7189-5d9f-4df7-9884-3941398e7553>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 827b491d-7cf2-4c14-9e0f-587c29380c95
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    alwaysOnTop: false
+    heightAboveButtonCm: false
+    tiltDeg: false
+    viewingDistanceCm: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - viewingDistanceCm: !<float> 150.000000
+      heightAboveButtonCm: !<float> 7.000000
+      tiltDeg: !<float> 35.000000
+      alwaysOnTop: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">ReachscopeStatusLabelUI – verdict label above the button</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float viewingDistanceCm = 150 {"hint":"Viewing distance (cm) used to scale the text role so it reads at real scale.", "widget":"slider", "min":60, "max":250, "step":5}'
+    - "// @input float heightAboveButtonCm = 7 {\"hint\":\"Offset of the label above the button's countertop position, in cm.\", \"widget\":\"slider\", \"min\":2, \"max\":30, \"step\":0.5}"
+    - '// @input float tiltDeg = 35 {"hint":"Backward tilt in degrees so the text faces a user looking down at the counter.", "widget":"slider", "min":0, "max":80, "step":1}'
+    - '// @input bool alwaysOnTop = true {"hint":"Keep the label visible even when the divider is between the user and the button."}'
+    - '// @ui {"widget":"group_end"}'

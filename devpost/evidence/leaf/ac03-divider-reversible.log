@@ -1,0 +1,69 @@
+I 17:32:28.233 I [DefaultLeafScenarioManager] [  0.126s]Register scenario: ac01-initial-blocked
+I 17:32:28.233 I [DefaultLeafScenarioManager] [  0.126s]Register scenario: ac02-move-button-clear
+I 17:32:28.233 I [DefaultLeafScenarioManager] [  0.126s]Register scenario: ac03-divider-reversible
+I 17:32:28.233 I [DefaultLeafScenarioManager] [  0.126s]Register scenario: ac04-too-far
+I 17:32:28.233 I [DefaultLeafScenarioManager] [  0.126s]Register scenario: ac05-reset-repeat
+I 17:32:28.346 [REACHSCOPE] verdict=PATH BLOCKED dist=50.0 button=(10.0,-150.0) divider=(10.0,-125.0)
+I 17:32:29.290 I [DefaultLeafScenarioManager] [  0.000s]RUNS: ac03-divider-reversible with args: []
+I 17:32:29.290 I [DefaultLeafScenarioManager] [  0.001s]Running with runner config: {"__leaf__log_level":"INFO","__leaf__timeout_secs":"120","__leaf__diagnostic_policy":"fallback","__leaf__diagnostic_report_duration_ms":"-1"}
+I 17:32:30.835 [REACHSCOPE-LEAF] === AC-03 divider reversibility (real LEAF SIK drags) ===
+I 17:32:30.852 [REACHSCOPE-LEAF] AC-03 start: verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+I 17:32:30.852 [REACHSCOPE-LEAF] PASS AC-03 start verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+I 17:32:30.853 [REACHSCOPE-LEAF] PASS AC-03 start distance matches :: lens=50.000 expected=50.000
+I 17:32:30.853 [REACHSCOPE-LEAF] PASS AC-03 start crossing matches :: lens=true expected=true
+I 17:32:30.853 [REACHSCOPE-LEAF] PASS AC-03 start label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+I 17:32:30.853 [REACHSCOPE-LEAF] PASS AC-03 start intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+I 17:32:30.853 [REACHSCOPE-LEAF] PASS AC-03 start line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+I 17:32:30.853 [REACHSCOPE-LEAF] PASS AC-03 start button on countertop (Y) :: button.y=-62.000
+I 17:32:30.853 [REACHSCOPE-LEAF] PASS AC-03 start divider on countertop (Y) :: divider.y=-62.000
+I 17:32:31.174 [REACHSCOPE] grab AssistanceButton
+I 17:32:33.309 [REACHSCOPE] clear pulse started (0.40 s)
+I 17:32:33.309 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=54.2 button=(31.0,-150.0) divider=(10.0,-125.0)
+I 17:32:34.558 [REACHSCOPE] release AssistanceButton verdict=DIRECT PATH CLEAR dist=58.3
+I 17:32:35.666 [REACHSCOPE-LEAF] AC-03 precondition (button moved): verdict=DIRECT PATH CLEAR dist=58.31 crossing=false label="DIRECT PATH CLEAR" mark=false button=(40.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false
+I 17:32:35.666 [REACHSCOPE-LEAF] PASS AC-03 precondition (button moved) verdict matches independent geometry :: lens=DIRECT PATH CLEAR expected=DIRECT PATH CLEAR
+I 17:32:35.666 [REACHSCOPE-LEAF] PASS AC-03 precondition (button moved) distance matches :: lens=58.310 expected=58.310
+I 17:32:35.666 [REACHSCOPE-LEAF] PASS AC-03 precondition (button moved) crossing matches :: lens=false expected=false
+I 17:32:35.666 [REACHSCOPE-LEAF] PASS AC-03 precondition (button moved) label text matches verdict :: label="DIRECT PATH CLEAR" verdict=DIRECT PATH CLEAR
+I 17:32:35.667 [REACHSCOPE-LEAF] PASS AC-03 precondition (button moved) intersection mark shown iff BLOCKED :: markEnabled=false verdict=DIRECT PATH CLEAR
+I 17:32:35.667 [REACHSCOPE-LEAF] PASS AC-03 precondition (button moved) line color matches verdict :: line=(0.35,1.00,0.45) want=(0.35,1.00,0.45)
+I 17:32:35.667 [REACHSCOPE-LEAF] PASS AC-03 precondition (button moved) button on countertop (Y) :: button.y=-62.000
+I 17:32:35.667 [REACHSCOPE-LEAF] PASS AC-03 precondition (button moved) divider on countertop (Y) :: divider.y=-62.000
+I 17:32:35.667 [REACHSCOPE-LEAF] PASS AC-03 precondition DIRECT PATH CLEAR :: DIRECT PATH CLEAR
+I 17:32:35.964 [REACHSCOPE] grab Divider
+I 17:32:36.456 [REACHSCOPE] verdict=PATH BLOCKED dist=58.3 button=(40.0,-150.0) divider=(14.5,-125.0)
+I 17:32:37.721 [REACHSCOPE] release Divider verdict=PATH BLOCKED dist=58.3
+I 17:32:38.712 [REACHSCOPE-LEAF] AC-03 divider moved into path: verdict=PATH BLOCKED dist=58.31 crossing=true label="PATH BLOCKED" mark=true button=(40.00,-62.00,-150.00) divider=(25.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=58.31 crossing=true
+I 17:32:38.713 [REACHSCOPE-LEAF] PASS AC-03 divider moved into path verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+I 17:32:38.713 [REACHSCOPE-LEAF] PASS AC-03 divider moved into path distance matches :: lens=58.310 expected=58.310
+I 17:32:38.713 [REACHSCOPE-LEAF] PASS AC-03 divider moved into path crossing matches :: lens=true expected=true
+I 17:32:38.713 [REACHSCOPE-LEAF] PASS AC-03 divider moved into path label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+I 17:32:38.713 [REACHSCOPE-LEAF] PASS AC-03 divider moved into path intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+I 17:32:38.713 [REACHSCOPE-LEAF] PASS AC-03 divider moved into path line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+I 17:32:38.713 [REACHSCOPE-LEAF] PASS AC-03 divider moved into path button on countertop (Y) :: button.y=-62.000
+I 17:32:38.714 [REACHSCOPE-LEAF] PASS AC-03 divider moved into path divider on countertop (Y) :: divider.y=-62.000
+I 17:32:38.714 [REACHSCOPE-LEAF] PASS AC-03 divider reached path point :: divider=(25.00,-62.00,-125.00) goal=(25.0,-125.0)
+I 17:32:38.714 [REACHSCOPE-LEAF] PASS AC-03 verdict PATH BLOCKED :: PATH BLOCKED
+I 17:32:38.714 [REACHSCOPE-LEAF] PASS AC-03 BLOCKED shown immediately (while still held) :: true
+I 17:32:38.714 [REACHSCOPE-LEAF] PASS AC-03 button did not move :: (40.00,-62.00,-150.00) -> (40.00,-62.00,-150.00)
+I 17:32:38.714 [REACHSCOPE-LEAF] PASS AC-03 divider upright (rotation unchanged) :: before=(1.0000,0.0000,0.0000,0.0000) after=(1.0000,0.0000,0.0000,0.0000)
+I 17:32:39.009 [REACHSCOPE] grab Divider
+I 17:32:40.102 [REACHSCOPE] clear pulse started (0.40 s)
+I 17:32:40.102 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=58.3 button=(40.0,-150.0) divider=(13.9,-125.0)
+I 17:32:43.078 [REACHSCOPE] release Divider verdict=DIRECT PATH CLEAR dist=58.3
+I 17:32:44.096 [REACHSCOPE-LEAF] AC-03 divider moved away: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false label="DIRECT PATH CLEAR" mark=false button=(40.00,-62.00,-150.00) divider=(-15.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false
+I 17:32:44.097 [REACHSCOPE-LEAF] PASS AC-03 divider moved away verdict matches independent geometry :: lens=DIRECT PATH CLEAR expected=DIRECT PATH CLEAR
+I 17:32:44.097 [REACHSCOPE-LEAF] PASS AC-03 divider moved away distance matches :: lens=58.310 expected=58.310
+I 17:32:44.097 [REACHSCOPE-LEAF] PASS AC-03 divider moved away crossing matches :: lens=false expected=false
+I 17:32:44.097 [REACHSCOPE-LEAF] PASS AC-03 divider moved away label text matches verdict :: label="DIRECT PATH CLEAR" verdict=DIRECT PATH CLEAR
+I 17:32:44.097 [REACHSCOPE-LEAF] PASS AC-03 divider moved away intersection mark shown iff BLOCKED :: markEnabled=false verdict=DIRECT PATH CLEAR
+I 17:32:44.097 [REACHSCOPE-LEAF] PASS AC-03 divider moved away line color matches verdict :: line=(0.35,1.00,0.45) want=(0.35,1.00,0.45)
+I 17:32:44.098 [REACHSCOPE-LEAF] PASS AC-03 divider moved away button on countertop (Y) :: button.y=-62.000
+I 17:32:44.098 [REACHSCOPE-LEAF] PASS AC-03 divider moved away divider on countertop (Y) :: divider.y=-62.000
+I 17:32:44.099 [REACHSCOPE-LEAF] PASS AC-03 divider reached x≈start-25 :: divider=(-15.00,-62.00,-125.00)
+I 17:32:44.099 [REACHSCOPE-LEAF] PASS AC-03 verdict DIRECT PATH CLEAR :: DIRECT PATH CLEAR
+I 17:32:44.099 [REACHSCOPE-LEAF] PASS AC-03 CLEAR shown while still held :: true
+I 17:32:44.099 [REACHSCOPE-LEAF] PASS AC-03 divider upright (rotation unchanged) :: after=(1.0000,0.0000,0.0000,0.0000)
+I 17:32:44.099 [REACHSCOPE-LEAF] === AC-03 done ===
+I 17:32:44.100 I [DefaultLeafScenarioManager] [ 14.810s]PASSED: ac03-divider-reversible
+I 17:32:44.100 I [DefaultLeafScenarioManager] [ 14.811s][ac03-divider-reversible] PASSED

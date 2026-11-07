@@ -1,0 +1,107 @@
+I 17:35:51.114 I [DefaultLeafScenarioManager] [  0.114s]Register scenario: ac01-initial-blocked
+I 17:35:51.114 I [DefaultLeafScenarioManager] [  0.114s]Register scenario: ac02-move-button-clear
+I 17:35:51.115 I [DefaultLeafScenarioManager] [  0.114s]Register scenario: ac03-divider-reversible
+I 17:35:51.115 I [DefaultLeafScenarioManager] [  0.115s]Register scenario: ac04-too-far
+I 17:35:51.115 I [DefaultLeafScenarioManager] [  0.115s]Register scenario: ac05-reset-repeat
+I 17:35:51.115 I [DefaultLeafScenarioManager] [  0.115s]Register scenario: ac05b-divider-positions
+I 17:35:51.227 [REACHSCOPE] verdict=PATH BLOCKED dist=50.0 button=(10.0,-150.0) divider=(10.0,-125.0)
+I 17:35:53.256 I [DefaultLeafScenarioManager] [  0.000s]RUNS: ac05-reset-repeat with args: []
+I 17:35:53.257 I [DefaultLeafScenarioManager] [  0.011s]Running with runner config: {"__leaf__log_level":"INFO","__leaf__timeout_secs":"240","__leaf__diagnostic_policy":"fallback","__leaf__diagnostic_report_duration_ms":"-1"}
+I 17:35:54.751 [REACHSCOPE-LEAF] === AC-05 reset + repeatability (real LEAF SIK drags + LEAF trigger on UIKit Reset) ===
+I 17:35:54.839 [REACHSCOPE-LEAF] AC-05 start: verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+I 17:35:54.840 [REACHSCOPE-LEAF] PASS AC-05 start verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+I 17:35:54.841 [REACHSCOPE-LEAF] PASS AC-05 start distance matches :: lens=50.000 expected=50.000
+I 17:35:54.842 [REACHSCOPE-LEAF] PASS AC-05 start crossing matches :: lens=true expected=true
+I 17:35:54.843 [REACHSCOPE-LEAF] PASS AC-05 start label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+I 17:35:54.849 [REACHSCOPE-LEAF] PASS AC-05 start intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+I 17:35:54.856 [REACHSCOPE-LEAF] PASS AC-05 start line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+I 17:35:54.858 [REACHSCOPE-LEAF] PASS AC-05 start button on countertop (Y) :: button.y=-62.000
+I 17:35:54.859 [REACHSCOPE-LEAF] PASS AC-05 start divider on countertop (Y) :: divider.y=-62.000
+I 17:35:55.434 [REACHSCOPE] grab AssistanceButton
+I 17:35:58.748 [REACHSCOPE] clear pulse started (0.40 s)
+I 17:35:58.749 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=54.2 button=(31.0,-150.0) divider=(10.0,-125.0)
+I 17:36:00.432 [REACHSCOPE] release AssistanceButton verdict=DIRECT PATH CLEAR dist=58.3
+I 17:36:01.181 [REACHSCOPE] grab Divider
+I 17:36:04.687 [REACHSCOPE] release Divider verdict=DIRECT PATH CLEAR dist=58.3
+I 17:36:05.740 [REACHSCOPE-LEAF] AC-05 both moved: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false label="DIRECT PATH CLEAR" mark=false button=(40.00,-62.00,-150.00) divider=(-15.00,-62.00,-115.00) marker=(10.00,-62.00,-100.00) | independent: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false
+I 17:36:05.741 [REACHSCOPE-LEAF] PASS AC-05 both moved verdict matches independent geometry :: lens=DIRECT PATH CLEAR expected=DIRECT PATH CLEAR
+I 17:36:05.741 [REACHSCOPE-LEAF] PASS AC-05 both moved distance matches :: lens=58.310 expected=58.310
+I 17:36:05.741 [REACHSCOPE-LEAF] PASS AC-05 both moved crossing matches :: lens=false expected=false
+I 17:36:05.741 [REACHSCOPE-LEAF] PASS AC-05 both moved label text matches verdict :: label="DIRECT PATH CLEAR" verdict=DIRECT PATH CLEAR
+I 17:36:05.742 [REACHSCOPE-LEAF] PASS AC-05 both moved intersection mark shown iff BLOCKED :: markEnabled=false verdict=DIRECT PATH CLEAR
+I 17:36:05.742 [REACHSCOPE-LEAF] PASS AC-05 both moved line color matches verdict :: line=(0.35,1.00,0.45) want=(0.35,1.00,0.45)
+I 17:36:05.743 [REACHSCOPE-LEAF] PASS AC-05 both moved button on countertop (Y) :: button.y=-62.000
+I 17:36:05.743 [REACHSCOPE-LEAF] PASS AC-05 both moved divider on countertop (Y) :: divider.y=-62.000
+I 17:36:05.744 [REACHSCOPE-LEAF] PASS AC-05 both objects actually moved :: button=(40.00,-62.00,-150.00) divider=(-15.00,-62.00,-115.00)
+I 17:36:06.235 [REACHSCOPE] reset pinched
+I 17:36:06.236 [REACHSCOPE] verdict=PATH BLOCKED dist=50.0 button=(10.0,-150.0) divider=(10.0,-125.0)
+I 17:36:07.056 [REACHSCOPE-LEAF] PASS AC-05 reset#1 reset fired from LEAF pinch on ResetButtonFace :: onReset count 0 -> 1
+I 17:36:07.056 [REACHSCOPE-LEAF] AC-05 reset#1 after reset: verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+I 17:36:07.056 [REACHSCOPE-LEAF] PASS AC-05 reset#1 after reset verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+I 17:36:07.057 [REACHSCOPE-LEAF] PASS AC-05 reset#1 after reset distance matches :: lens=50.000 expected=50.000
+I 17:36:07.057 [REACHSCOPE-LEAF] PASS AC-05 reset#1 after reset crossing matches :: lens=true expected=true
+I 17:36:07.057 [REACHSCOPE-LEAF] PASS AC-05 reset#1 after reset label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+I 17:36:07.057 [REACHSCOPE-LEAF] PASS AC-05 reset#1 after reset intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+I 17:36:07.057 [REACHSCOPE-LEAF] PASS AC-05 reset#1 after reset line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+I 17:36:07.057 [REACHSCOPE-LEAF] PASS AC-05 reset#1 after reset button on countertop (Y) :: button.y=-62.000
+I 17:36:07.058 [REACHSCOPE-LEAF] PASS AC-05 reset#1 after reset divider on countertop (Y) :: divider.y=-62.000
+I 17:36:07.058 [REACHSCOPE-LEAF] PASS AC-05 reset#1 button back at start :: button=(10.00,-62.00,-150.00) start=(10.00,-62.00,-150.00)
+I 17:36:07.058 [REACHSCOPE-LEAF] PASS AC-05 reset#1 divider back at start :: divider=(10.00,-62.00,-125.00) start=(10.00,-62.00,-125.00)
+I 17:36:07.059 [REACHSCOPE-LEAF] PASS AC-05 reset#1 PATH BLOCKED after reset :: PATH BLOCKED / "PATH BLOCKED"
+I 17:36:07.497 [REACHSCOPE] grab AssistanceButton
+I 17:36:09.918 [REACHSCOPE] clear pulse started (0.40 s)
+I 17:36:09.918 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=54.2 button=(31.0,-150.0) divider=(10.0,-125.0)
+I 17:36:11.265 [REACHSCOPE] release AssistanceButton verdict=DIRECT PATH CLEAR dist=58.3
+I 17:36:12.240 [REACHSCOPE-LEAF] AC-05 cycle1 clear: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false label="DIRECT PATH CLEAR" mark=false button=(40.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false
+I 17:36:12.240 [REACHSCOPE-LEAF] PASS AC-05 cycle1 clear verdict matches independent geometry :: lens=DIRECT PATH CLEAR expected=DIRECT PATH CLEAR
+I 17:36:12.241 [REACHSCOPE-LEAF] PASS AC-05 cycle1 clear distance matches :: lens=58.310 expected=58.310
+I 17:36:12.241 [REACHSCOPE-LEAF] PASS AC-05 cycle1 clear crossing matches :: lens=false expected=false
+I 17:36:12.241 [REACHSCOPE-LEAF] PASS AC-05 cycle1 clear label text matches verdict :: label="DIRECT PATH CLEAR" verdict=DIRECT PATH CLEAR
+I 17:36:12.241 [REACHSCOPE-LEAF] PASS AC-05 cycle1 clear intersection mark shown iff BLOCKED :: markEnabled=false verdict=DIRECT PATH CLEAR
+I 17:36:12.241 [REACHSCOPE-LEAF] PASS AC-05 cycle1 clear line color matches verdict :: line=(0.35,1.00,0.45) want=(0.35,1.00,0.45)
+I 17:36:12.241 [REACHSCOPE-LEAF] PASS AC-05 cycle1 clear button on countertop (Y) :: button.y=-62.000
+I 17:36:12.242 [REACHSCOPE-LEAF] PASS AC-05 cycle1 clear divider on countertop (Y) :: divider.y=-62.000
+I 17:36:12.242 [REACHSCOPE-LEAF] PASS AC-05 cycle1 CLEAR :: DIRECT PATH CLEAR
+I 17:36:12.573 [REACHSCOPE] grab AssistanceButton
+I 17:36:13.656 [REACHSCOPE] verdict=PATH BLOCKED dist=53.9 button=(30.2,-150.0) divider=(10.0,-125.0)
+I 17:36:16.352 [REACHSCOPE] release AssistanceButton verdict=PATH BLOCKED dist=50.0
+I 17:36:17.350 [REACHSCOPE-LEAF] AC-05 cycle1 blocked again: verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+I 17:36:17.351 [REACHSCOPE-LEAF] PASS AC-05 cycle1 blocked again verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+I 17:36:17.351 [REACHSCOPE-LEAF] PASS AC-05 cycle1 blocked again distance matches :: lens=50.000 expected=50.000
+I 17:36:17.351 [REACHSCOPE-LEAF] PASS AC-05 cycle1 blocked again crossing matches :: lens=true expected=true
+I 17:36:17.352 [REACHSCOPE-LEAF] PASS AC-05 cycle1 blocked again label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+I 17:36:17.352 [REACHSCOPE-LEAF] PASS AC-05 cycle1 blocked again intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+I 17:36:17.352 [REACHSCOPE-LEAF] PASS AC-05 cycle1 blocked again line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+I 17:36:17.352 [REACHSCOPE-LEAF] PASS AC-05 cycle1 blocked again button on countertop (Y) :: button.y=-62.000
+I 17:36:17.353 [REACHSCOPE-LEAF] PASS AC-05 cycle1 blocked again divider on countertop (Y) :: divider.y=-62.000
+I 17:36:17.353 [REACHSCOPE-LEAF] PASS AC-05 cycle1 BLOCKED again :: PATH BLOCKED
+I 17:36:17.716 [REACHSCOPE] grab AssistanceButton
+I 17:36:20.029 [REACHSCOPE] clear pulse started (0.40 s)
+I 17:36:20.029 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=54.3 button=(31.2,-150.0) divider=(10.0,-125.0)
+I 17:36:21.283 [REACHSCOPE] release AssistanceButton verdict=DIRECT PATH CLEAR dist=58.3
+I 17:36:22.296 [REACHSCOPE-LEAF] AC-05 cycle2 clear: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false label="DIRECT PATH CLEAR" mark=false button=(40.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false
+I 17:36:22.296 [REACHSCOPE-LEAF] PASS AC-05 cycle2 clear verdict matches independent geometry :: lens=DIRECT PATH CLEAR expected=DIRECT PATH CLEAR
+I 17:36:22.297 [REACHSCOPE-LEAF] PASS AC-05 cycle2 clear distance matches :: lens=58.310 expected=58.310
+I 17:36:22.297 [REACHSCOPE-LEAF] PASS AC-05 cycle2 clear crossing matches :: lens=false expected=false
+I 17:36:22.297 [REACHSCOPE-LEAF] PASS AC-05 cycle2 clear label text matches verdict :: label="DIRECT PATH CLEAR" verdict=DIRECT PATH CLEAR
+I 17:36:22.297 [REACHSCOPE-LEAF] PASS AC-05 cycle2 clear intersection mark shown iff BLOCKED :: markEnabled=false verdict=DIRECT PATH CLEAR
+I 17:36:22.297 [REACHSCOPE-LEAF] PASS AC-05 cycle2 clear line color matches verdict :: line=(0.35,1.00,0.45) want=(0.35,1.00,0.45)
+I 17:36:22.298 [REACHSCOPE-LEAF] PASS AC-05 cycle2 clear button on countertop (Y) :: button.y=-62.000
+I 17:36:22.298 [REACHSCOPE-LEAF] PASS AC-05 cycle2 clear divider on countertop (Y) :: divider.y=-62.000
+I 17:36:22.298 [REACHSCOPE-LEAF] PASS AC-05 cycle2 CLEAR :: DIRECT PATH CLEAR
+I 17:36:22.703 [REACHSCOPE] grab AssistanceButton
+I 17:36:23.806 [REACHSCOPE] verdict=PATH BLOCKED dist=53.9 button=(30.2,-150.0) divider=(10.0,-125.0)
+I 17:36:26.583 [REACHSCOPE] release AssistanceButton verdict=PATH BLOCKED dist=50.0
+I 17:36:27.684 [REACHSCOPE-LEAF] AC-05 cycle2 blocked again: verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+I 17:36:27.685 [REACHSCOPE-LEAF] PASS AC-05 cycle2 blocked again verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+I 17:36:27.685 [REACHSCOPE-LEAF] PASS AC-05 cycle2 blocked again distance matches :: lens=50.000 expected=50.000
+I 17:36:27.685 [REACHSCOPE-LEAF] PASS AC-05 cycle2 blocked again crossing matches :: lens=true expected=true
+I 17:36:27.686 [REACHSCOPE-LEAF] PASS AC-05 cycle2 blocked again label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+I 17:36:27.686 [REACHSCOPE-LEAF] PASS AC-05 cycle2 blocked again intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+I 17:36:27.686 [REACHSCOPE-LEAF] PASS AC-05 cycle2 blocked again line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+I 17:36:27.688 [REACHSCOPE-LEAF] PASS AC-05 cycle2 blocked again button on countertop (Y) :: button.y=-62.000
+I 17:36:27.688 [REACHSCOPE-LEAF] PASS AC-05 cycle2 blocked again divider on countertop (Y) :: divider.y=-62.000
+I 17:36:27.688 [REACHSCOPE-LEAF] PASS AC-05 cycle2 BLOCKED again :: PATH BLOCKED
+I 17:36:27.688 [REACHSCOPE-LEAF] === AC-05 done ===
+I 17:36:27.689 I [DefaultLeafScenarioManager] [ 34.443s]PASSED: ac05-reset-repeat
+I 17:36:27.690 I [DefaultLeafScenarioManager] [ 34.444s][ac05-reset-repeat] PASSED

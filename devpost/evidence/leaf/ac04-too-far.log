@@ -1,0 +1,87 @@
+I 17:33:00.546 I [DefaultLeafScenarioManager] [  0.110s]Register scenario: ac01-initial-blocked
+I 17:33:00.546 I [DefaultLeafScenarioManager] [  0.110s]Register scenario: ac02-move-button-clear
+I 17:33:00.546 I [DefaultLeafScenarioManager] [  0.110s]Register scenario: ac03-divider-reversible
+I 17:33:00.547 I [DefaultLeafScenarioManager] [  0.111s]Register scenario: ac04-too-far
+I 17:33:00.547 I [DefaultLeafScenarioManager] [  0.111s]Register scenario: ac05-reset-repeat
+I 17:33:00.653 [REACHSCOPE] verdict=PATH BLOCKED dist=50.0 button=(10.0,-150.0) divider=(10.0,-125.0)
+I 17:33:01.564 I [DefaultLeafScenarioManager] [  0.000s]RUNS: ac04-too-far with args: []
+I 17:33:01.564 I [DefaultLeafScenarioManager] [  0.001s]Running with runner config: {"__leaf__log_level":"INFO","__leaf__timeout_secs":"180","__leaf__diagnostic_policy":"fallback","__leaf__diagnostic_report_duration_ms":"-1"}
+I 17:33:03.093 [REACHSCOPE-LEAF] === AC-04 distance limit overrides obstruction (real LEAF SIK drags) ===
+I 17:33:03.106 [REACHSCOPE-LEAF] AC-04 start: verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+I 17:33:03.107 [REACHSCOPE-LEAF] PASS AC-04 start verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+I 17:33:03.107 [REACHSCOPE-LEAF] PASS AC-04 start distance matches :: lens=50.000 expected=50.000
+I 17:33:03.107 [REACHSCOPE-LEAF] PASS AC-04 start crossing matches :: lens=true expected=true
+I 17:33:03.107 [REACHSCOPE-LEAF] PASS AC-04 start label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+I 17:33:03.107 [REACHSCOPE-LEAF] PASS AC-04 start intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+I 17:33:03.108 [REACHSCOPE-LEAF] PASS AC-04 start line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+I 17:33:03.108 [REACHSCOPE-LEAF] PASS AC-04 start button on countertop (Y) :: button.y=-62.000
+I 17:33:03.108 [REACHSCOPE-LEAF] PASS AC-04 start divider on countertop (Y) :: divider.y=-62.000
+I 17:33:03.389 [REACHSCOPE] grab Divider
+I 17:33:04.572 [REACHSCOPE] clear pulse started (0.40 s)
+I 17:33:04.573 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=50.0 button=(10.0,-150.0) divider=(20.7,-127.7)
+I 17:33:05.760 [REACHSCOPE] release Divider verdict=DIRECT PATH CLEAR dist=50.0
+I 17:33:06.686 [REACHSCOPE] grab AssistanceButton
+I 17:33:08.672 [REACHSCOPE] verdict=PATH BLOCKED dist=57.5 button=(28.2,-154.5) divider=(30.0,-130.0)
+I 17:33:10.001 [REACHSCOPE] verdict=TOO FAR dist=65.2 button=(40.5,-157.6) divider=(30.0,-130.0)
+I 17:33:11.204 [REACHSCOPE] release AssistanceButton verdict=TOO FAR dist=72.1
+I 17:33:12.223 [REACHSCOPE-LEAF] AC-04 button far diagonal: verdict=TOO FAR dist=72.11 crossing=true label="TOO FAR" mark=false button=(50.00,-62.00,-160.00) divider=(30.00,-62.00,-130.00) marker=(10.00,-62.00,-100.00) | independent: verdict=TOO FAR dist=72.11 crossing=true
+I 17:33:12.223 [REACHSCOPE-LEAF] PASS AC-04 button far diagonal verdict matches independent geometry :: lens=TOO FAR expected=TOO FAR
+I 17:33:12.223 [REACHSCOPE-LEAF] PASS AC-04 button far diagonal distance matches :: lens=72.111 expected=72.111
+I 17:33:12.223 [REACHSCOPE-LEAF] PASS AC-04 button far diagonal crossing matches :: lens=true expected=true
+I 17:33:12.223 [REACHSCOPE-LEAF] PASS AC-04 button far diagonal label text matches verdict :: label="TOO FAR" verdict=TOO FAR
+I 17:33:12.224 [REACHSCOPE-LEAF] PASS AC-04 button far diagonal intersection mark shown iff BLOCKED :: markEnabled=false verdict=TOO FAR
+I 17:33:12.224 [REACHSCOPE-LEAF] PASS AC-04 button far diagonal line color matches verdict :: line=(1.00,0.72,0.20) want=(1.00,0.72,0.20)
+I 17:33:12.224 [REACHSCOPE-LEAF] PASS AC-04 button far diagonal button on countertop (Y) :: button.y=-62.000
+I 17:33:12.225 [REACHSCOPE-LEAF] PASS AC-04 button far diagonal divider on countertop (Y) :: divider.y=-62.000
+I 17:33:12.225 [REACHSCOPE-LEAF] PASS AC-04 button at (marker+40, marker-60) :: button=(50.00,-62.00,-160.00)
+I 17:33:12.225 [REACHSCOPE-LEAF] PASS AC-04 dist > 65 :: dist=72.11
+I 17:33:12.225 [REACHSCOPE-LEAF] PASS AC-04 dist ≈ 72.1 :: dist=72.11
+I 17:33:12.225 [REACHSCOPE-LEAF] PASS AC-04 path DOES cross the divider (independent) :: divider=(30.00,-62.00,-130.00)
+I 17:33:12.226 [REACHSCOPE-LEAF] PASS AC-04 crossing reported true by Lens :: true
+I 17:33:12.226 [REACHSCOPE-LEAF] PASS AC-04 verdict TOO FAR (overrides obstruction) :: TOO FAR
+I 17:33:12.226 [REACHSCOPE-LEAF] PASS AC-04 label TOO FAR :: label="TOO FAR"
+I 17:33:12.532 [REACHSCOPE] grab AssistanceButton
+I 17:33:13.481 [REACHSCOPE] release AssistanceButton verdict=TOO FAR dist=65.7
+I 17:33:14.521 [REACHSCOPE-LEAF] AC-04 brief example 55in/36side: verdict=TOO FAR dist=65.73 crossing=true label="TOO FAR" mark=false button=(46.00,-62.00,-155.00) divider=(30.00,-62.00,-130.00) marker=(10.00,-62.00,-100.00) | independent: verdict=TOO FAR dist=65.73 crossing=true
+I 17:33:14.522 [REACHSCOPE-LEAF] PASS AC-04 brief example 55in/36side verdict matches independent geometry :: lens=TOO FAR expected=TOO FAR
+I 17:33:14.522 [REACHSCOPE-LEAF] PASS AC-04 brief example 55in/36side distance matches :: lens=65.734 expected=65.734
+I 17:33:14.522 [REACHSCOPE-LEAF] PASS AC-04 brief example 55in/36side crossing matches :: lens=true expected=true
+I 17:33:14.522 [REACHSCOPE-LEAF] PASS AC-04 brief example 55in/36side label text matches verdict :: label="TOO FAR" verdict=TOO FAR
+I 17:33:14.522 [REACHSCOPE-LEAF] PASS AC-04 brief example 55in/36side intersection mark shown iff BLOCKED :: markEnabled=false verdict=TOO FAR
+I 17:33:14.522 [REACHSCOPE-LEAF] PASS AC-04 brief example 55in/36side line color matches verdict :: line=(1.00,0.72,0.20) want=(1.00,0.72,0.20)
+I 17:33:14.522 [REACHSCOPE-LEAF] PASS AC-04 brief example 55in/36side button on countertop (Y) :: button.y=-62.000
+I 17:33:14.523 [REACHSCOPE-LEAF] PASS AC-04 brief example 55in/36side divider on countertop (Y) :: divider.y=-62.000
+I 17:33:14.523 [REACHSCOPE-LEAF] PASS AC-04 brief example reads TOO FAR :: TOO FAR dist=65.73
+I 17:33:14.797 [REACHSCOPE] grab AssistanceButton
+I 17:33:15.002 [REACHSCOPE] verdict=PATH BLOCKED dist=64.5 button=(44.7,-154.4) divider=(30.0,-130.0)
+I 17:33:16.950 [REACHSCOPE] release AssistanceButton verdict=PATH BLOCKED dist=55.9
+I 17:33:17.974 [REACHSCOPE-LEAF] AC-04 back within reach #1: verdict=PATH BLOCKED dist=55.90 crossing=true label="PATH BLOCKED" mark=true button=(35.00,-62.00,-150.00) divider=(30.00,-62.00,-130.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=55.90 crossing=true
+I 17:33:17.975 [REACHSCOPE-LEAF] PASS AC-04 back within reach #1 verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+I 17:33:17.975 [REACHSCOPE-LEAF] PASS AC-04 back within reach #1 distance matches :: lens=55.902 expected=55.902
+I 17:33:17.975 [REACHSCOPE-LEAF] PASS AC-04 back within reach #1 crossing matches :: lens=true expected=true
+I 17:33:17.975 [REACHSCOPE-LEAF] PASS AC-04 back within reach #1 label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+I 17:33:17.975 [REACHSCOPE-LEAF] PASS AC-04 back within reach #1 intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+I 17:33:17.976 [REACHSCOPE-LEAF] PASS AC-04 back within reach #1 line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+I 17:33:17.976 [REACHSCOPE-LEAF] PASS AC-04 back within reach #1 button on countertop (Y) :: button.y=-62.000
+I 17:33:17.976 [REACHSCOPE-LEAF] PASS AC-04 back within reach #1 divider on countertop (Y) :: divider.y=-62.000
+I 17:33:17.976 [REACHSCOPE-LEAF] PASS AC-04 #1 dist <= 65 :: dist=55.90
+I 17:33:17.976 [REACHSCOPE-LEAF] PASS AC-04 #1 not TOO FAR :: PATH BLOCKED
+I 17:33:18.250 [REACHSCOPE] grab AssistanceButton
+I 17:33:19.279 [REACHSCOPE] clear pulse started (0.40 s)
+I 17:33:19.280 [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=52.3 button=(25.4,-150.0) divider=(30.0,-130.0)
+I 17:33:23.029 [REACHSCOPE] release AssistanceButton verdict=DIRECT PATH CLEAR dist=53.9
+I 17:33:24.190 [REACHSCOPE-LEAF] AC-04 back within reach #2: verdict=DIRECT PATH CLEAR dist=53.85 crossing=false label="DIRECT PATH CLEAR" mark=false button=(-10.00,-62.00,-150.00) divider=(30.00,-62.00,-130.00) marker=(10.00,-62.00,-100.00) | independent: verdict=DIRECT PATH CLEAR dist=53.85 crossing=false
+I 17:33:24.191 [REACHSCOPE-LEAF] PASS AC-04 back within reach #2 verdict matches independent geometry :: lens=DIRECT PATH CLEAR expected=DIRECT PATH CLEAR
+I 17:33:24.191 [REACHSCOPE-LEAF] PASS AC-04 back within reach #2 distance matches :: lens=53.852 expected=53.852
+I 17:33:24.191 [REACHSCOPE-LEAF] PASS AC-04 back within reach #2 crossing matches :: lens=false expected=false
+I 17:33:24.191 [REACHSCOPE-LEAF] PASS AC-04 back within reach #2 label text matches verdict :: label="DIRECT PATH CLEAR" verdict=DIRECT PATH CLEAR
+I 17:33:24.191 [REACHSCOPE-LEAF] PASS AC-04 back within reach #2 intersection mark shown iff BLOCKED :: markEnabled=false verdict=DIRECT PATH CLEAR
+I 17:33:24.192 [REACHSCOPE-LEAF] PASS AC-04 back within reach #2 line color matches verdict :: line=(0.35,1.00,0.45) want=(0.35,1.00,0.45)
+I 17:33:24.192 [REACHSCOPE-LEAF] PASS AC-04 back within reach #2 button on countertop (Y) :: button.y=-62.000
+I 17:33:24.192 [REACHSCOPE-LEAF] PASS AC-04 back within reach #2 divider on countertop (Y) :: divider.y=-62.000
+I 17:33:24.192 [REACHSCOPE-LEAF] PASS AC-04 #2 dist <= 65 :: dist=53.85
+I 17:33:24.192 [REACHSCOPE-LEAF] PASS AC-04 #2 not TOO FAR :: DIRECT PATH CLEAR
+I 17:33:24.193 [REACHSCOPE-LEAF] PASS AC-04 in-reach checks covered both BLOCKED and CLEAR :: PATH BLOCKED / DIRECT PATH CLEAR
+I 17:33:24.193 [REACHSCOPE-LEAF] === AC-04 done ===
+I 17:33:24.193 I [DefaultLeafScenarioManager] [ 22.630s]PASSED: ac04-too-far
+I 17:33:24.193 I [DefaultLeafScenarioManager] [ 22.630s][ac04-too-far] PASSED

@@ -1,0 +1,36 @@
+I 17:03:30.603 [Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=PATH BLOCKED dist=50.0 button=(10.0,-150.0) divider=(10.0,-125.0)
+I 17:03:32.251 [Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=PATH BLOCKED dist=50.0 button=(10.0,-150.0) divider=(10.0,-125.0)
+I 17:03:32.745 [Assets/Scripts/ReachscopeMain.ts:256] [REACHSCOPE][SELFTEST] drag button 30 cm sideways
+I 17:03:32.745 [Assets/Scripts/ReachscopeMain.ts:145] [REACHSCOPE] grab AssistanceButton
+I 17:03:33.454 [Assets/Scripts/ReachscopeMain.ts:189] [REACHSCOPE] clear pulse started (0.40 s)
+I 17:03:33.454 [Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=54.8 button=(32.5,-150.0) divider=(10.0,-125.0)
+I 17:03:33.770 [Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release AssistanceButton verdict=DIRECT PATH CLEAR dist=58.3
+I 17:03:33.770 [Assets/Scripts/ReachscopeMain.ts:271] [REACHSCOPE][SELFTEST] after "drag button 30 cm sideways": verdict=DIRECT PATH CLEAR dist=58.3 crossing=false
+I 17:03:33.845 [Assets/Scripts/ReachscopeMain.ts:256] [REACHSCOPE][SELFTEST] drag divider into the path
+I 17:03:33.845 [Assets/Scripts/ReachscopeMain.ts:147] [REACHSCOPE] grab Divider
+I 17:03:34.178 [Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=PATH BLOCKED dist=58.3 button=(40.0,-150.0) divider=(15.0,-125.0)
+I 17:03:34.850 [Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release Divider verdict=PATH BLOCKED dist=58.3
+I 17:03:34.851 [Assets/Scripts/ReachscopeMain.ts:271] [REACHSCOPE][SELFTEST] after "drag divider into the path": verdict=PATH BLOCKED dist=58.3 crossing=true
+I 17:03:34.921 [Assets/Scripts/ReachscopeMain.ts:256] [REACHSCOPE][SELFTEST] drag divider away
+I 17:03:34.921 [Assets/Scripts/ReachscopeMain.ts:147] [REACHSCOPE] grab Divider
+I 17:03:35.227 [Assets/Scripts/ReachscopeMain.ts:189] [REACHSCOPE] clear pulse started (0.40 s)
+I 17:03:35.228 [Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=58.3 button=(40.0,-150.0) divider=(11.7,-125.0)
+I 17:03:35.900 [Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release Divider verdict=DIRECT PATH CLEAR dist=58.3
+I 17:03:35.901 [Assets/Scripts/ReachscopeMain.ts:271] [REACHSCOPE][SELFTEST] after "drag divider away": verdict=DIRECT PATH CLEAR dist=58.3 crossing=false
+I 17:03:35.977 [Assets/Scripts/ReachscopeMain.ts:256] [REACHSCOPE][SELFTEST] drag divider onto the diagonal path
+I 17:03:35.977 [Assets/Scripts/ReachscopeMain.ts:147] [REACHSCOPE] grab Divider
+I 17:03:36.680 [Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=PATH BLOCKED dist=58.3 button=(40.0,-150.0) divider=(17.3,-126.9)
+I 17:03:36.967 [Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release Divider verdict=PATH BLOCKED dist=58.3
+I 17:03:36.968 [Assets/Scripts/ReachscopeMain.ts:271] [REACHSCOPE][SELFTEST] after "drag divider onto the diagonal path": verdict=PATH BLOCKED dist=58.3 crossing=true
+I 17:03:37.051 [Assets/Scripts/ReachscopeMain.ts:256] [REACHSCOPE][SELFTEST] drag button diagonally (55 in / 36 side)
+I 17:03:37.052 [Assets/Scripts/ReachscopeMain.ts:145] [REACHSCOPE] grab AssistanceButton
+I 17:03:37.934 [Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=TOO FAR dist=65.1 button=(45.5,-154.6) divider=(28.0,-127.5)
+I 17:03:38.091 [Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release AssistanceButton verdict=TOO FAR dist=65.7
+I 17:03:38.091 [Assets/Scripts/ReachscopeMain.ts:271] [REACHSCOPE][SELFTEST] after "drag button diagonally (55 in / 36 side)": verdict=TOO FAR dist=65.7 crossing=true
+I 17:03:38.180 [Assets/Scripts/ReachscopeMain.ts:256] [REACHSCOPE][SELFTEST] drag button back within reach
+I 17:03:38.180 [Assets/Scripts/ReachscopeMain.ts:145] [REACHSCOPE] grab AssistanceButton
+I 17:03:38.338 [Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=PATH BLOCKED dist=64.5 button=(45.0,-154.2) divider=(28.0,-127.5)
+I 17:03:39.179 [Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release AssistanceButton verdict=PATH BLOCKED dist=58.3
+I 17:03:39.179 [Assets/Scripts/ReachscopeMain.ts:271] [REACHSCOPE][SELFTEST] after "drag button back within reach": verdict=PATH BLOCKED dist=58.3 crossing=true
+I 17:03:39.260 [Assets/Scripts/ReachscopeMain.ts:284] [REACHSCOPE][SELFTEST] reset()
+I 17:03:39.261 [Assets/Scripts/ReachscopeMain.ts:286] [REACHSCOPE][SELFTEST] after reset: verdict=PATH BLOCKED dist=50.0

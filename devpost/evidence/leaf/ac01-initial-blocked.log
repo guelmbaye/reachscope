@@ -1,0 +1,46 @@
+I 17:31:29.922 I [DefaultLeafScenarioManager] [  0.129s]Register scenario: ac01-initial-blocked
+I 17:31:29.923 I [DefaultLeafScenarioManager] [  0.130s]Register scenario: ac02-move-button-clear
+I 17:31:29.923 I [DefaultLeafScenarioManager] [  0.130s]Register scenario: ac03-divider-reversible
+I 17:31:29.923 I [DefaultLeafScenarioManager] [  0.130s]Register scenario: ac04-too-far
+I 17:31:29.924 I [DefaultLeafScenarioManager] [  0.131s]Register scenario: ac05-reset-repeat
+I 17:31:30.060 [REACHSCOPE] verdict=PATH BLOCKED dist=50.0 button=(10.0,-150.0) divider=(10.0,-125.0)
+I 17:31:30.765 I [DefaultLeafScenarioManager] [  0.000s]RUNS: ac01-initial-blocked with args: []
+I 17:31:30.765 I [DefaultLeafScenarioManager] [  0.010s]Running with runner config: {"__leaf__log_level":"INFO","__leaf__timeout_secs":"120","__leaf__diagnostic_policy":"fallback","__leaf__diagnostic_report_duration_ms":"-1"}
+I 17:31:32.281 [REACHSCOPE-LEAF] === AC-01 initial blocked state (no interaction) ===
+I 17:31:32.290 [REACHSCOPE-LEAF] PASS reach limit is 65 cm :: maxReachCm=65
+I 17:31:32.291 [REACHSCOPE-LEAF] PASS divider footprint is 20 x 2 cm :: footprint=(20,2)
+I 17:31:32.292 [REACHSCOPE-LEAF] PASS AC-01 Counter present & enabled in hierarchy :: found=true
+I 17:31:32.293 [REACHSCOPE-LEAF] PASS AC-01 CounterVisual present & enabled in hierarchy :: found=true
+I 17:31:32.294 [REACHSCOPE-LEAF] PASS AC-01 ReferenceMarker present & enabled in hierarchy :: found=true
+I 17:31:32.295 [REACHSCOPE-LEAF] PASS AC-01 MarkerVisual present & enabled in hierarchy :: found=true
+I 17:31:32.296 [REACHSCOPE-LEAF] PASS AC-01 Divider present & enabled in hierarchy :: found=true
+I 17:31:32.297 [REACHSCOPE-LEAF] PASS AC-01 DividerVisual present & enabled in hierarchy :: found=true
+I 17:31:32.298 [REACHSCOPE-LEAF] PASS AC-01 AssistanceButton present & enabled in hierarchy :: found=true
+I 17:31:32.299 [REACHSCOPE-LEAF] PASS AC-01 ButtonVisual present & enabled in hierarchy :: found=true
+I 17:31:32.301 [REACHSCOPE-LEAF] PASS AC-01 PathLine present & enabled in hierarchy :: found=true
+I 17:31:32.302 [REACHSCOPE-LEAF] PASS AC-01 StatusText present & enabled in hierarchy :: found=true
+I 17:31:32.304 [REACHSCOPE-LEAF] PASS AC-01 CounterVisual has mesh+material :: rmv=true
+I 17:31:32.306 [REACHSCOPE-LEAF] PASS AC-01 MarkerVisual has mesh+material :: rmv=true
+I 17:31:32.307 [REACHSCOPE-LEAF] PASS AC-01 DividerVisual has mesh+material :: rmv=true
+I 17:31:32.308 [REACHSCOPE-LEAF] PASS AC-01 ButtonVisual has mesh+material :: rmv=true
+I 17:31:32.308 [REACHSCOPE-LEAF] AC-01 start: verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+I 17:31:32.308 [REACHSCOPE-LEAF] PASS AC-01 start verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+I 17:31:32.309 [REACHSCOPE-LEAF] PASS AC-01 start distance matches :: lens=50.000 expected=50.000
+I 17:31:32.309 [REACHSCOPE-LEAF] PASS AC-01 start crossing matches :: lens=true expected=true
+I 17:31:32.309 [REACHSCOPE-LEAF] PASS AC-01 start label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+I 17:31:32.309 [REACHSCOPE-LEAF] PASS AC-01 start intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+I 17:31:32.309 [REACHSCOPE-LEAF] PASS AC-01 start line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+I 17:31:32.309 [REACHSCOPE-LEAF] PASS AC-01 start button on countertop (Y) :: button.y=-62.000
+I 17:31:32.310 [REACHSCOPE-LEAF] PASS AC-01 start divider on countertop (Y) :: divider.y=-62.000
+I 17:31:32.310 [REACHSCOPE-LEAF] PASS AC-01 button at authored start (10,-62,-150) :: button=(10.00,-62.00,-150.00)
+I 17:31:32.310 [REACHSCOPE-LEAF] PASS AC-01 divider at authored start (10,-62,-125) :: divider=(10.00,-62.00,-125.00)
+I 17:31:32.310 [REACHSCOPE-LEAF] PASS AC-01 button ~50 cm from marker :: dist=50.00
+I 17:31:32.311 [REACHSCOPE-LEAF] PASS AC-01 verdict PATH BLOCKED :: verdict=PATH BLOCKED
+I 17:31:32.311 [REACHSCOPE-LEAF] PASS AC-01 crossing true :: crossing=true
+I 17:31:32.311 [REACHSCOPE-LEAF] PASS AC-01 label reads PATH BLOCKED :: label="PATH BLOCKED"
+I 17:31:32.311 [REACHSCOPE-LEAF] PASS AC-01 intersection highlighted :: mark=true
+I 17:31:32.312 [REACHSCOPE-LEAF] PASS AC-01 intersection mark on divider footprint :: mark=(10.00,-60.85,-124.00)
+I 17:31:32.312 [REACHSCOPE-LEAF] PASS AC-01 divider upright (identity rotation) :: dRot w=1.0000
+I 17:31:32.312 [REACHSCOPE-LEAF] === AC-01 done ===
+I 17:31:32.312 I [DefaultLeafScenarioManager] [  1.557s]PASSED: ac01-initial-blocked
+I 17:31:32.312 I [DefaultLeafScenarioManager] [  1.557s][ac01-initial-blocked] PASSED

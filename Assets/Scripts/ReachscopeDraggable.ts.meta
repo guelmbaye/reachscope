@@ -1,0 +1,53 @@
+- !<AssetImportMetadata/3f395e76-b867-4693-aba9-d5a1bfe9e181>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e206c4f5-68a4-4367-9a9b-b2208facaf44
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e206c4f5-68a4-4367-9a9b-b2208facaf44
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 4968a1f8-6dfe-42f9-bbfb-df68e4aa5325
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/4968a1f8-6dfe-42f9-bbfb-df68e4aa5325>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: e1db27bd-1b3e-4310-9ebf-ffe695d91fbf
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    colliderSize: false
+    debugCollider: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - colliderSize: !<Vec3> {x: 12.000000, y: 6.000000, z: 12.000000}
+      debugCollider: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">ReachscopeDraggable – pinch-drag on the countertop plane</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input vec3 colliderSize = {12,6,12} {"hint":"Invisible grab collider size in cm (X = width, Y = height, Z = depth). Slightly larger than the visual."}'
+    - '// @input bool debugCollider {"hint":"Draw the grab collider as a wireframe (debug)."}'
+    - '// @ui {"widget":"group_end"}'

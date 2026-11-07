@@ -1,0 +1,462 @@
+[Packages/Leaf.lspkg/Utils/common/Logger.ts:89] E [DefaultLeafScenarioManager] [  2.727s][ac02-move-button-clear] FAILED - Error: AC-02 stock LEAF drag moved button along +X :: dx=0.45
+[LeafPlugin][PluginViewModel] ❌ Scenario ac02-move-button-clear failed.
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=PATH BLOCKED dist=50.0 button=(10.0,-150.0) divider=(10.0,-125.0)
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=PATH BLOCKED dist=50.0 button=(10.0,-150.0) divider=(10.0,-125.0)
+[Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.000s]RUNS: ac01-initial-blocked with args: []
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] === AC-01 initial blocked state (no interaction) ===
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS reach limit is 65 cm :: maxReachCm=65
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS divider footprint is 20 x 2 cm :: footprint=(20,2)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 Counter present & enabled in hierarchy :: found=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 CounterVisual present & enabled in hierarchy :: found=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 ReferenceMarker present & enabled in hierarchy :: found=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 MarkerVisual present & enabled in hierarchy :: found=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 Divider present & enabled in hierarchy :: found=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 DividerVisual present & enabled in hierarchy :: found=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 AssistanceButton present & enabled in hierarchy :: found=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 ButtonVisual present & enabled in hierarchy :: found=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 PathLine present & enabled in hierarchy :: found=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 StatusText present & enabled in hierarchy :: found=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 CounterVisual has mesh+material :: rmv=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 MarkerVisual has mesh+material :: rmv=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 DividerVisual has mesh+material :: rmv=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 ButtonVisual has mesh+material :: rmv=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-01 start: verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 start verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 start distance matches :: lens=50.000 expected=50.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 start crossing matches :: lens=true expected=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 start label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 start intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 start line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 start button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 start divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 button at authored start (10,-62,-150) :: button=(10.00,-62.00,-150.00)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 divider at authored start (10,-62,-125) :: divider=(10.00,-62.00,-125.00)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 button ~50 cm from marker :: dist=50.00
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 verdict PATH BLOCKED :: verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 crossing true :: crossing=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 label reads PATH BLOCKED :: label="PATH BLOCKED"
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 intersection highlighted :: mark=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 intersection mark on divider footprint :: mark=(10.00,-60.85,-124.00)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-01 divider upright (identity rotation) :: dRot w=1.0000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] === AC-01 done ===
+[Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  1.589s]PASSED: ac01-initial-blocked
+[Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  1.590s][ac01-initial-blocked] PASSED
+[LeafPlugin][PluginViewModel] ✅ Scenario ac01-initial-blocked completed successfully.
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=PATH BLOCKED dist=50.0 button=(10.0,-150.0) divider=(10.0,-125.0)
+[Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.000s]RUNS: ac02-move-button-clear with args: []
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] === AC-02 move button 30 cm sideways (real LEAF SIK drag) ===
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-02 before: verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 before verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 before distance matches :: lens=50.000 expected=50.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 before crossing matches :: lens=true expected=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 before label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 before intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 before line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 before button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 before divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 precondition PATH BLOCKED :: PATH BLOCKED
+[Assets/Scripts/ReachscopeMain.ts:145] [REACHSCOPE] grab AssistanceButton
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release AssistanceButton verdict=PATH BLOCKED dist=50.0
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-02 after stock LEAF drag(0.15cm/update, 400ms): button=(10.60,-62.00,-150.00) verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 stock LEAF drag moved button along +X :: dx=0.60
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 stock drag kept Z :: dz=0.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 drag start/end events fired :: grab=true release=true
+[Assets/Scripts/ReachscopeMain.ts:145] [REACHSCOPE] grab AssistanceButton
+[Assets/Scripts/ReachscopeMain.ts:189] [REACHSCOPE] clear pulse started (0.40 s)
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=54.3 button=(31.2,-150.0) divider=(10.0,-125.0)
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release AssistanceButton verdict=DIRECT PATH CLEAR dist=58.3
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-02 dragTo done frames=43 final=(40.00,-62.00,-150.00) verdicts-while-held=PATH BLOCKED -> DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 button was in grabbed state during drag :: draggingFrames=43
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 path/distance updated while dragging :: distinct distances while held=37
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 verdict changed BLOCKED -> CLEAR while held :: PATH BLOCKED -> DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 Y stayed pinned to -62 while held :: max|y+62|=0.0000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 rotation untouched while held :: changed=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-02 after release: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false label="DIRECT PATH CLEAR" mark=false button=(40.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 after release verdict matches independent geometry :: lens=DIRECT PATH CLEAR expected=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 after release distance matches :: lens=58.310 expected=58.310
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 after release crossing matches :: lens=false expected=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 after release label text matches verdict :: label="DIRECT PATH CLEAR" verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 after release intersection mark shown iff BLOCKED :: markEnabled=false verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 after release line color matches verdict :: line=(0.35,1.00,0.45) want=(0.35,1.00,0.45)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 after release button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 after release divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 button reached ~30 cm sideways :: button=(40.00,-62.00,-150.00) goal=(40,-150)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 verdict DIRECT PATH CLEAR :: DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 dist ≈ 58.3 :: dist=58.31
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 label DIRECT PATH CLEAR :: label="DIRECT PATH CLEAR"
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 exactly one clear pulse :: pulses=1
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 pulse is one-shot (finished) :: pulsing=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 not dragging after release :: isDragging=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 rotation unchanged :: before=(1.0000,0.0000,0.0000,0.0000) after=(1.0000,0.0000,0.0000,0.0000)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-02 1 s after release: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false label="DIRECT PATH CLEAR" mark=false button=(40.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 1 s after release verdict matches independent geometry :: lens=DIRECT PATH CLEAR expected=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 1 s after release distance matches :: lens=58.310 expected=58.310
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 1 s after release crossing matches :: lens=false expected=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 1 s after release label text matches verdict :: label="DIRECT PATH CLEAR" verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 1 s after release intersection mark shown iff BLOCKED :: markEnabled=false verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 1 s after release line color matches verdict :: line=(0.35,1.00,0.45) want=(0.35,1.00,0.45)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 1 s after release button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 1 s after release divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 position kept after release :: (40.00,-62.00,-150.00) -> (40.00,-62.00,-150.00)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 verdict kept after release :: DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-02 still exactly one pulse :: pulses=1
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] === AC-02 done ===
+[Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  8.929s]PASSED: ac02-move-button-clear
+[Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  8.929s][ac02-move-button-clear] PASSED
+[LeafPlugin][PluginViewModel] ✅ Scenario ac02-move-button-clear completed successfully.
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=PATH BLOCKED dist=50.0 button=(10.0,-150.0) divider=(10.0,-125.0)
+[Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.000s]RUNS: ac03-divider-reversible with args: []
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] === AC-03 divider reversibility (real LEAF SIK drags) ===
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-03 start: verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 start verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 start distance matches :: lens=50.000 expected=50.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 start crossing matches :: lens=true expected=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 start label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 start intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 start line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 start button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 start divider on countertop (Y) :: divider.y=-62.000
+[Assets/Scripts/ReachscopeMain.ts:145] [REACHSCOPE] grab AssistanceButton
+[Assets/Scripts/ReachscopeMain.ts:189] [REACHSCOPE] clear pulse started (0.40 s)
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=54.2 button=(31.0,-150.0) divider=(10.0,-125.0)
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release AssistanceButton verdict=DIRECT PATH CLEAR dist=58.3
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-03 precondition (button moved): verdict=DIRECT PATH CLEAR dist=58.31 crossing=false label="DIRECT PATH CLEAR" mark=false button=(40.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 precondition (button moved) verdict matches independent geometry :: lens=DIRECT PATH CLEAR expected=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 precondition (button moved) distance matches :: lens=58.310 expected=58.310
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 precondition (button moved) crossing matches :: lens=false expected=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 precondition (button moved) label text matches verdict :: label="DIRECT PATH CLEAR" verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 precondition (button moved) intersection mark shown iff BLOCKED :: markEnabled=false verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 precondition (button moved) line color matches verdict :: line=(0.35,1.00,0.45) want=(0.35,1.00,0.45)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 precondition (button moved) button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 precondition (button moved) divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 precondition DIRECT PATH CLEAR :: DIRECT PATH CLEAR
+[Assets/Scripts/ReachscopeMain.ts:147] [REACHSCOPE] grab Divider
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=PATH BLOCKED dist=58.3 button=(40.0,-150.0) divider=(14.5,-125.0)
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release Divider verdict=PATH BLOCKED dist=58.3
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-03 divider moved into path: verdict=PATH BLOCKED dist=58.31 crossing=true label="PATH BLOCKED" mark=true button=(40.00,-62.00,-150.00) divider=(25.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=58.31 crossing=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 divider moved into path verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 divider moved into path distance matches :: lens=58.310 expected=58.310
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 divider moved into path crossing matches :: lens=true expected=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 divider moved into path label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 divider moved into path intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 divider moved into path line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 divider moved into path button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 divider moved into path divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 divider reached path point :: divider=(25.00,-62.00,-125.00) goal=(25.0,-125.0)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 verdict PATH BLOCKED :: PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 BLOCKED shown immediately (while still held) :: true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 button did not move :: (40.00,-62.00,-150.00) -> (40.00,-62.00,-150.00)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 divider upright (rotation unchanged) :: before=(1.0000,0.0000,0.0000,0.0000) after=(1.0000,0.0000,0.0000,0.0000)
+[Assets/Scripts/ReachscopeMain.ts:147] [REACHSCOPE] grab Divider
+[Assets/Scripts/ReachscopeMain.ts:189] [REACHSCOPE] clear pulse started (0.40 s)
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=58.3 button=(40.0,-150.0) divider=(13.9,-125.0)
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release Divider verdict=DIRECT PATH CLEAR dist=58.3
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-03 divider moved away: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false label="DIRECT PATH CLEAR" mark=false button=(40.00,-62.00,-150.00) divider=(-15.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 divider moved away verdict matches independent geometry :: lens=DIRECT PATH CLEAR expected=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 divider moved away distance matches :: lens=58.310 expected=58.310
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 divider moved away crossing matches :: lens=false expected=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 divider moved away label text matches verdict :: label="DIRECT PATH CLEAR" verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 divider moved away intersection mark shown iff BLOCKED :: markEnabled=false verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 divider moved away line color matches verdict :: line=(0.35,1.00,0.45) want=(0.35,1.00,0.45)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 divider moved away button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 divider moved away divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 divider reached x≈start-25 :: divider=(-15.00,-62.00,-125.00)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 verdict DIRECT PATH CLEAR :: DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 CLEAR shown while still held :: true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-03 divider upright (rotation unchanged) :: after=(1.0000,0.0000,0.0000,0.0000)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] === AC-03 done ===
+[Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [ 16.275s]PASSED: ac03-divider-reversible
+[Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [ 16.276s][ac03-divider-reversible] PASSED
+[LeafPlugin][PluginViewModel] ✅ Scenario ac03-divider-reversible completed successfully.
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=PATH BLOCKED dist=50.0 button=(10.0,-150.0) divider=(10.0,-125.0)
+[Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.000s]RUNS: ac04-too-far with args: []
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] === AC-04 distance limit overrides obstruction (real LEAF SIK drags) ===
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-04 start: verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 start verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 start distance matches :: lens=50.000 expected=50.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 start crossing matches :: lens=true expected=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 start label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 start intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 start line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 start button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 start divider on countertop (Y) :: divider.y=-62.000
+[Assets/Scripts/ReachscopeMain.ts:147] [REACHSCOPE] grab Divider
+[Assets/Scripts/ReachscopeMain.ts:189] [REACHSCOPE] clear pulse started (0.40 s)
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=50.0 button=(10.0,-150.0) divider=(20.7,-127.7)
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release Divider verdict=DIRECT PATH CLEAR dist=50.0
+[Assets/Scripts/ReachscopeMain.ts:145] [REACHSCOPE] grab AssistanceButton
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=PATH BLOCKED dist=57.5 button=(28.2,-154.5) divider=(30.0,-130.0)
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=TOO FAR dist=65.2 button=(40.5,-157.6) divider=(30.0,-130.0)
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release AssistanceButton verdict=TOO FAR dist=72.1
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-04 button far diagonal: verdict=TOO FAR dist=72.11 crossing=true label="TOO FAR" mark=false button=(50.00,-62.00,-160.00) divider=(30.00,-62.00,-130.00) marker=(10.00,-62.00,-100.00) | independent: verdict=TOO FAR dist=72.11 crossing=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 button far diagonal verdict matches independent geometry :: lens=TOO FAR expected=TOO FAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 button far diagonal distance matches :: lens=72.111 expected=72.111
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 button far diagonal crossing matches :: lens=true expected=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 button far diagonal label text matches verdict :: label="TOO FAR" verdict=TOO FAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 button far diagonal intersection mark shown iff BLOCKED :: markEnabled=false verdict=TOO FAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 button far diagonal line color matches verdict :: line=(1.00,0.72,0.20) want=(1.00,0.72,0.20)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 button far diagonal button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 button far diagonal divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 button at (marker+40, marker-60) :: button=(50.00,-62.00,-160.00)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 dist > 65 :: dist=72.11
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 dist ≈ 72.1 :: dist=72.11
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 path DOES cross the divider (independent) :: divider=(30.00,-62.00,-130.00)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 crossing reported true by Lens :: true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 verdict TOO FAR (overrides obstruction) :: TOO FAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 label TOO FAR :: label="TOO FAR"
+[Assets/Scripts/ReachscopeMain.ts:145] [REACHSCOPE] grab AssistanceButton
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release AssistanceButton verdict=TOO FAR dist=65.7
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-04 brief example 55in/36side: verdict=TOO FAR dist=65.73 crossing=true label="TOO FAR" mark=false button=(46.00,-62.00,-155.00) divider=(30.00,-62.00,-130.00) marker=(10.00,-62.00,-100.00) | independent: verdict=TOO FAR dist=65.73 crossing=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 brief example 55in/36side verdict matches independent geometry :: lens=TOO FAR expected=TOO FAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 brief example 55in/36side distance matches :: lens=65.734 expected=65.734
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 brief example 55in/36side crossing matches :: lens=true expected=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 brief example 55in/36side label text matches verdict :: label="TOO FAR" verdict=TOO FAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 brief example 55in/36side intersection mark shown iff BLOCKED :: markEnabled=false verdict=TOO FAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 brief example 55in/36side line color matches verdict :: line=(1.00,0.72,0.20) want=(1.00,0.72,0.20)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 brief example 55in/36side button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 brief example 55in/36side divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 brief example reads TOO FAR :: TOO FAR dist=65.73
+[Assets/Scripts/ReachscopeMain.ts:145] [REACHSCOPE] grab AssistanceButton
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=PATH BLOCKED dist=64.5 button=(44.7,-154.4) divider=(30.0,-130.0)
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release AssistanceButton verdict=PATH BLOCKED dist=55.9
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-04 back within reach #1: verdict=PATH BLOCKED dist=55.90 crossing=true label="PATH BLOCKED" mark=true button=(35.00,-62.00,-150.00) divider=(30.00,-62.00,-130.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=55.90 crossing=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 back within reach #1 verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 back within reach #1 distance matches :: lens=55.902 expected=55.902
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 back within reach #1 crossing matches :: lens=true expected=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 back within reach #1 label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 back within reach #1 intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 back within reach #1 line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 back within reach #1 button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 back within reach #1 divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 #1 dist <= 65 :: dist=55.90
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 #1 not TOO FAR :: PATH BLOCKED
+[Assets/Scripts/ReachscopeMain.ts:145] [REACHSCOPE] grab AssistanceButton
+[Assets/Scripts/ReachscopeMain.ts:189] [REACHSCOPE] clear pulse started (0.40 s)
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=52.3 button=(25.4,-150.0) divider=(30.0,-130.0)
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release AssistanceButton verdict=DIRECT PATH CLEAR dist=53.9
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-04 back within reach #2: verdict=DIRECT PATH CLEAR dist=53.85 crossing=false label="DIRECT PATH CLEAR" mark=false button=(-10.00,-62.00,-150.00) divider=(30.00,-62.00,-130.00) marker=(10.00,-62.00,-100.00) | independent: verdict=DIRECT PATH CLEAR dist=53.85 crossing=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 back within reach #2 verdict matches independent geometry :: lens=DIRECT PATH CLEAR expected=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 back within reach #2 distance matches :: lens=53.852 expected=53.852
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 back within reach #2 crossing matches :: lens=false expected=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 back within reach #2 label text matches verdict :: label="DIRECT PATH CLEAR" verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 back within reach #2 intersection mark shown iff BLOCKED :: markEnabled=false verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 back within reach #2 line color matches verdict :: line=(0.35,1.00,0.45) want=(0.35,1.00,0.45)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 back within reach #2 button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 back within reach #2 divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 #2 dist <= 65 :: dist=53.85
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 #2 not TOO FAR :: DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-04 in-reach checks covered both BLOCKED and CLEAR :: PATH BLOCKED / DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] === AC-04 done ===
+[Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [ 25.163s]PASSED: ac04-too-far
+[Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [ 25.163s][ac04-too-far] PASSED
+[LeafPlugin][PluginViewModel] ✅ Scenario ac04-too-far completed successfully.
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=PATH BLOCKED dist=50.0 button=(10.0,-150.0) divider=(10.0,-125.0)
+[Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.000s]RUNS: ac05-reset-repeat with args: []
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] === AC-05 reset + repeatability (real LEAF SIK drags + LEAF trigger on UIKit Reset) ===
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-05 start: verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 start verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 start distance matches :: lens=50.000 expected=50.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 start crossing matches :: lens=true expected=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 start label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 start intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 start line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 start button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 start divider on countertop (Y) :: divider.y=-62.000
+[Assets/Scripts/ReachscopeMain.ts:145] [REACHSCOPE] grab AssistanceButton
+[Assets/Scripts/ReachscopeMain.ts:189] [REACHSCOPE] clear pulse started (0.40 s)
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=54.2 button=(31.0,-150.0) divider=(10.0,-125.0)
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release AssistanceButton verdict=DIRECT PATH CLEAR dist=58.3
+[Assets/Scripts/ReachscopeMain.ts:147] [REACHSCOPE] grab Divider
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release Divider verdict=DIRECT PATH CLEAR dist=58.3
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-05 both moved: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false label="DIRECT PATH CLEAR" mark=false button=(40.00,-62.00,-150.00) divider=(-15.00,-62.00,-115.00) marker=(10.00,-62.00,-100.00) | independent: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 both moved verdict matches independent geometry :: lens=DIRECT PATH CLEAR expected=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 both moved distance matches :: lens=58.310 expected=58.310
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 both moved crossing matches :: lens=false expected=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 both moved label text matches verdict :: label="DIRECT PATH CLEAR" verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 both moved intersection mark shown iff BLOCKED :: markEnabled=false verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 both moved line color matches verdict :: line=(0.35,1.00,0.45) want=(0.35,1.00,0.45)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 both moved button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 both moved divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 both objects actually moved :: button=(40.00,-62.00,-150.00) divider=(-15.00,-62.00,-115.00)
+[Assets/Scripts/ReachscopeMain.ts:142] [REACHSCOPE] reset pinched
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=PATH BLOCKED dist=50.0 button=(10.0,-150.0) divider=(10.0,-125.0)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 reset#1 reset fired from LEAF pinch on ResetButtonFace :: onReset count 0 -> 1
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-05 reset#1 after reset: verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 reset#1 after reset verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 reset#1 after reset distance matches :: lens=50.000 expected=50.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 reset#1 after reset crossing matches :: lens=true expected=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 reset#1 after reset label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 reset#1 after reset intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 reset#1 after reset line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 reset#1 after reset button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 reset#1 after reset divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 reset#1 button back at start :: button=(10.00,-62.00,-150.00) start=(10.00,-62.00,-150.00)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 reset#1 divider back at start :: divider=(10.00,-62.00,-125.00) start=(10.00,-62.00,-125.00)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 reset#1 PATH BLOCKED after reset :: PATH BLOCKED / "PATH BLOCKED"
+[Assets/Scripts/ReachscopeMain.ts:145] [REACHSCOPE] grab AssistanceButton
+[Assets/Scripts/ReachscopeMain.ts:189] [REACHSCOPE] clear pulse started (0.40 s)
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=54.2 button=(31.0,-150.0) divider=(10.0,-125.0)
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release AssistanceButton verdict=DIRECT PATH CLEAR dist=58.3
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-05 cycle1 clear: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false label="DIRECT PATH CLEAR" mark=false button=(40.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle1 clear verdict matches independent geometry :: lens=DIRECT PATH CLEAR expected=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle1 clear distance matches :: lens=58.310 expected=58.310
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle1 clear crossing matches :: lens=false expected=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle1 clear label text matches verdict :: label="DIRECT PATH CLEAR" verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle1 clear intersection mark shown iff BLOCKED :: markEnabled=false verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle1 clear line color matches verdict :: line=(0.35,1.00,0.45) want=(0.35,1.00,0.45)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle1 clear button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle1 clear divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle1 CLEAR :: DIRECT PATH CLEAR
+[Assets/Scripts/ReachscopeMain.ts:145] [REACHSCOPE] grab AssistanceButton
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=PATH BLOCKED dist=53.9 button=(30.2,-150.0) divider=(10.0,-125.0)
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release AssistanceButton verdict=PATH BLOCKED dist=50.0
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-05 cycle1 blocked again: verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle1 blocked again verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle1 blocked again distance matches :: lens=50.000 expected=50.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle1 blocked again crossing matches :: lens=true expected=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle1 blocked again label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle1 blocked again intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle1 blocked again line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle1 blocked again button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle1 blocked again divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle1 BLOCKED again :: PATH BLOCKED
+[Assets/Scripts/ReachscopeMain.ts:145] [REACHSCOPE] grab AssistanceButton
+[Assets/Scripts/ReachscopeMain.ts:189] [REACHSCOPE] clear pulse started (0.40 s)
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=54.3 button=(31.2,-150.0) divider=(10.0,-125.0)
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release AssistanceButton verdict=DIRECT PATH CLEAR dist=58.3
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-05 cycle2 clear: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false label="DIRECT PATH CLEAR" mark=false button=(40.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=DIRECT PATH CLEAR dist=58.31 crossing=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle2 clear verdict matches independent geometry :: lens=DIRECT PATH CLEAR expected=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle2 clear distance matches :: lens=58.310 expected=58.310
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle2 clear crossing matches :: lens=false expected=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle2 clear label text matches verdict :: label="DIRECT PATH CLEAR" verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle2 clear intersection mark shown iff BLOCKED :: markEnabled=false verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle2 clear line color matches verdict :: line=(0.35,1.00,0.45) want=(0.35,1.00,0.45)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle2 clear button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle2 clear divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle2 CLEAR :: DIRECT PATH CLEAR
+[Assets/Scripts/ReachscopeMain.ts:145] [REACHSCOPE] grab AssistanceButton
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=PATH BLOCKED dist=53.9 button=(30.2,-150.0) divider=(10.0,-125.0)
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release AssistanceButton verdict=PATH BLOCKED dist=50.0
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-05 cycle2 blocked again: verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle2 blocked again verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle2 blocked again distance matches :: lens=50.000 expected=50.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle2 blocked again crossing matches :: lens=true expected=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle2 blocked again label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle2 blocked again intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle2 blocked again line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle2 blocked again button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle2 blocked again divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05 cycle2 BLOCKED again :: PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] === AC-05 done ===
+[Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [ 32.376s]PASSED: ac05-reset-repeat
+[Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [ 32.376s][ac05-reset-repeat] PASSED
+[LeafPlugin][PluginViewModel] ✅ Scenario ac05-reset-repeat completed successfully.
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=PATH BLOCKED dist=50.0 button=(10.0,-150.0) divider=(10.0,-125.0)
+[Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [  0.000s]RUNS: ac05b-divider-positions with args: []
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] === AC-05b divider positions + reset (real LEAF SIK drags + LEAF trigger on UIKit Reset) ===
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-05b start: verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b start verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b start distance matches :: lens=50.000 expected=50.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b start crossing matches :: lens=true expected=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b start label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b start intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b start line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b start button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b start divider on countertop (Y) :: divider.y=-62.000
+[Assets/Scripts/ReachscopeMain.ts:147] [REACHSCOPE] grab Divider
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release Divider verdict=PATH BLOCKED dist=50.0
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-05b divider pos#1 (19.0,-125.0): verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(19.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#1 (19.0,-125.0) verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#1 (19.0,-125.0) distance matches :: lens=50.000 expected=50.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#1 (19.0,-125.0) crossing matches :: lens=true expected=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#1 (19.0,-125.0) label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#1 (19.0,-125.0) intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#1 (19.0,-125.0) line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#1 (19.0,-125.0) button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#1 (19.0,-125.0) divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#1 reached :: divider=(19.00,-62.00,-125.00)
+[Assets/Scripts/ReachscopeMain.ts:147] [REACHSCOPE] grab Divider
+[Assets/Scripts/ReachscopeMain.ts:189] [REACHSCOPE] clear pulse started (0.40 s)
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=50.0 button=(10.0,-150.0) divider=(21.0,-125.0)
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release Divider verdict=DIRECT PATH CLEAR dist=50.0
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-05b divider pos#2 (21.0,-125.0): verdict=DIRECT PATH CLEAR dist=50.00 crossing=false label="DIRECT PATH CLEAR" mark=false button=(10.00,-62.00,-150.00) divider=(21.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=DIRECT PATH CLEAR dist=50.00 crossing=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#2 (21.0,-125.0) verdict matches independent geometry :: lens=DIRECT PATH CLEAR expected=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#2 (21.0,-125.0) distance matches :: lens=50.000 expected=50.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#2 (21.0,-125.0) crossing matches :: lens=false expected=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#2 (21.0,-125.0) label text matches verdict :: label="DIRECT PATH CLEAR" verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#2 (21.0,-125.0) intersection mark shown iff BLOCKED :: markEnabled=false verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#2 (21.0,-125.0) line color matches verdict :: line=(0.35,1.00,0.45) want=(0.35,1.00,0.45)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#2 (21.0,-125.0) button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#2 (21.0,-125.0) divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#2 reached :: divider=(21.00,-62.00,-125.00)
+[Assets/Scripts/ReachscopeMain.ts:147] [REACHSCOPE] grab Divider
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release Divider verdict=DIRECT PATH CLEAR dist=50.0
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-05b divider pos#3 (35.0,-125.0): verdict=DIRECT PATH CLEAR dist=50.00 crossing=false label="DIRECT PATH CLEAR" mark=false button=(10.00,-62.00,-150.00) divider=(35.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=DIRECT PATH CLEAR dist=50.00 crossing=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#3 (35.0,-125.0) verdict matches independent geometry :: lens=DIRECT PATH CLEAR expected=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#3 (35.0,-125.0) distance matches :: lens=50.000 expected=50.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#3 (35.0,-125.0) crossing matches :: lens=false expected=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#3 (35.0,-125.0) label text matches verdict :: label="DIRECT PATH CLEAR" verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#3 (35.0,-125.0) intersection mark shown iff BLOCKED :: markEnabled=false verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#3 (35.0,-125.0) line color matches verdict :: line=(0.35,1.00,0.45) want=(0.35,1.00,0.45)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#3 (35.0,-125.0) button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#3 (35.0,-125.0) divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#3 reached :: divider=(35.00,-62.00,-125.00)
+[Assets/Scripts/ReachscopeMain.ts:147] [REACHSCOPE] grab Divider
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=PATH BLOCKED dist=50.0 button=(10.0,-150.0) divider=(19.8,-130.7)
+[Assets/Scripts/ReachscopeMain.ts:189] [REACHSCOPE] clear pulse started (0.40 s)
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=DIRECT PATH CLEAR dist=50.0 button=(10.0,-150.0) divider=(-0.9,-138.4)
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release Divider verdict=DIRECT PATH CLEAR dist=50.0
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-05b divider pos#4 (-5.0,-140.0): verdict=DIRECT PATH CLEAR dist=50.00 crossing=false label="DIRECT PATH CLEAR" mark=false button=(10.00,-62.00,-150.00) divider=(-5.00,-62.00,-140.00) marker=(10.00,-62.00,-100.00) | independent: verdict=DIRECT PATH CLEAR dist=50.00 crossing=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#4 (-5.0,-140.0) verdict matches independent geometry :: lens=DIRECT PATH CLEAR expected=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#4 (-5.0,-140.0) distance matches :: lens=50.000 expected=50.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#4 (-5.0,-140.0) crossing matches :: lens=false expected=false
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#4 (-5.0,-140.0) label text matches verdict :: label="DIRECT PATH CLEAR" verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#4 (-5.0,-140.0) intersection mark shown iff BLOCKED :: markEnabled=false verdict=DIRECT PATH CLEAR
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#4 (-5.0,-140.0) line color matches verdict :: line=(0.35,1.00,0.45) want=(0.35,1.00,0.45)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#4 (-5.0,-140.0) button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#4 (-5.0,-140.0) divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#4 reached :: divider=(-5.00,-62.00,-140.00)
+[Assets/Scripts/ReachscopeMain.ts:147] [REACHSCOPE] grab Divider
+[Assets/Scripts/ReachscopeMain.ts:191] [REACHSCOPE] verdict=PATH BLOCKED dist=50.0 button=(10.0,-150.0) divider=(0.2,-130.9)
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release Divider verdict=PATH BLOCKED dist=50.0
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-05b divider pos#5 (12.0,-110.0): verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(12.00,-62.00,-110.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#5 (12.0,-110.0) verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#5 (12.0,-110.0) distance matches :: lens=50.000 expected=50.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#5 (12.0,-110.0) crossing matches :: lens=true expected=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#5 (12.0,-110.0) label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#5 (12.0,-110.0) intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#5 (12.0,-110.0) line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#5 (12.0,-110.0) button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#5 (12.0,-110.0) divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#5 reached :: divider=(12.00,-62.00,-110.00)
+[Assets/Scripts/ReachscopeMain.ts:147] [REACHSCOPE] grab Divider
+[Assets/Scripts/ReachscopeMain.ts:229] [REACHSCOPE] release Divider verdict=PATH BLOCKED dist=50.0
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-05b divider pos#6 (0.5,-145.0): verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(0.50,-62.00,-145.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#6 (0.5,-145.0) verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#6 (0.5,-145.0) distance matches :: lens=50.000 expected=50.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#6 (0.5,-145.0) crossing matches :: lens=true expected=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#6 (0.5,-145.0) label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#6 (0.5,-145.0) intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#6 (0.5,-145.0) line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#6 (0.5,-145.0) button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#6 (0.5,-145.0) divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider pos#6 reached :: divider=(0.50,-62.00,-145.00)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider sweep produced both BLOCKED and CLEAR :: PATH BLOCKED, DIRECT PATH CLEAR, DIRECT PATH CLEAR, DIRECT PATH CLEAR, PATH BLOCKED, PATH BLOCKED
+[Assets/Scripts/ReachscopeMain.ts:142] [REACHSCOPE] reset pinched
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b reset fired from LEAF pinch on ResetButtonFace :: onReset count=1
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] AC-05b after reset: verdict=PATH BLOCKED dist=50.00 crossing=true label="PATH BLOCKED" mark=true button=(10.00,-62.00,-150.00) divider=(10.00,-62.00,-125.00) marker=(10.00,-62.00,-100.00) | independent: verdict=PATH BLOCKED dist=50.00 crossing=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b after reset verdict matches independent geometry :: lens=PATH BLOCKED expected=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b after reset distance matches :: lens=50.000 expected=50.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b after reset crossing matches :: lens=true expected=true
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b after reset label text matches verdict :: label="PATH BLOCKED" verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b after reset intersection mark shown iff BLOCKED :: markEnabled=true verdict=PATH BLOCKED
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b after reset line color matches verdict :: line=(1.00,0.32,0.30) want=(1.00,0.32,0.30)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b after reset button on countertop (Y) :: button.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b after reset divider on countertop (Y) :: divider.y=-62.000
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b button back at start :: button=(10.00,-62.00,-150.00)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b divider back at start :: divider=(10.00,-62.00,-125.00)
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] PASS AC-05b PATH BLOCKED after reset :: PATH BLOCKED / "PATH BLOCKED"
+[Assets/Tests/ReachscopeTestUtils.ts:20] [REACHSCOPE-LEAF] === AC-05b done ===
+[Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [ 18.857s]PASSED: ac05b-divider-positions
+[Packages/Leaf.lspkg/Utils/common/Logger.ts:89] I [DefaultLeafScenarioManager] [ 18.857s][ac05b-divider-positions] PASSED
+[LeafPlugin][PluginViewModel] ✅ Scenario ac05b-divider-positions completed successfully.

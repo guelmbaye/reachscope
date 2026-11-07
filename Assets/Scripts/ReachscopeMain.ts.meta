@@ -1,0 +1,107 @@
+- !<AssetImportMetadata/e93b14cb-85f0-4f59-9042-5a99c7e353e3>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 07aa9941-4dec-4913-ba0b-99d686cee486
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 07aa9941-4dec-4913-ba0b-99d686cee486
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 654a64ee-58e5-4249-afeb-f05390a3d037
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/654a64ee-58e5-4249-afeb-f05390a3d037>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 0c265cf7-2879-480c-b91e-bef36ad3afc7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    assistanceButton: false
+    blockedColor: false
+    buttonRadiusCm: false
+    clearColor: false
+    counter: false
+    counterSizeCm: false
+    debugSelfTest: false
+    divider: false
+    dividerFootprintCm: false
+    grabWidthMultiplier: false
+    lineWidthCm: false
+    maxReachCm: false
+    pathLine: false
+    referenceMarker: false
+    resetButton: false
+    statusLabel: false
+    thinLineWidthCm: false
+    tooFarColor: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - counter: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      referenceMarker: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      assistanceButton: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      divider: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      pathLine: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      statusLabel: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      resetButton: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+      maxReachCm: !<float> 65.000000
+      counterSizeCm: !<Vec2> {x: 100.000000, y: 70.000000}
+      dividerFootprintCm: !<Vec2> {x: 20.000000, y: 2.000000}
+      buttonRadiusCm: !<float> 4.000000
+      lineWidthCm: 0.600000
+      thinLineWidthCm: 0.350000
+      grabWidthMultiplier: 1.800000
+      blockedColor: !<Vec4> {x: 1.000000, y: 0.320000, z: 0.300000, w: 1.000000}
+      clearColor: !<Vec4> {x: 0.350000, y: 1.000000, z: 0.450000, w: 1.000000}
+      tooFarColor: !<Vec4> {x: 1.000000, y: 0.720000, z: 0.200000, w: 1.000000}
+      debugSelfTest: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">ReachscopeMain – reach & direct-path checker</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input SceneObject counter {"hint":"Counter root. Its origin is the center of the countertop surface (world Y = countertop height)."}'
+    - '// @input SceneObject referenceMarker {"hint":"Fixed reach reference marker (not movable). Its world position is the path start."}'
+    - '// @input AssignableType_1 assistanceButton {"hint":"Draggable assistance button."}'
+    - '// @input AssignableType_2 divider {"hint":"Draggable divider panel."}'
+    - '// @input AssignableType_3 pathLine {"hint":"Path line renderer."}'
+    - '// @input AssignableType_4 statusLabel {"hint":"Status label UI module."}'
+    - '// @input AssignableType_5 resetButton {"hint":"Reset button UI module."}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float maxReachCm = 65 {"hint":"Reach limit in cm. Distance strictly greater than this reads TOO FAR (illustrative, not clinical).", "widget":"slider", "min":30, "max":100, "step":0.5}'
+    - '// @input vec2 counterSizeCm = {100,70} {"hint":"Countertop width (X) and depth (Z) in cm — used to keep dragged objects on the counter."}'
+    - '// @input vec2 dividerFootprintCm = {20,2} {"hint":"Divider footprint: width across the path (X) and thickness (Z), in cm."}'
+    - '// @input float buttonRadiusCm = 4 {"hint":"Assistance button radius in cm (keeps the whole button on the counter).", "widget":"slider", "min":1, "max":10, "step":0.5}'
+    - '// @input float lineWidthCm = 0.6 {"hint":"Normal path line width in cm (BLOCKED / CLEAR).", "widget":"slider", "min":0.1, "max":3, "step":0.05}'
+    - '// @input float thinLineWidthCm = 0.35 {"hint":"Thin line width in cm used for TOO FAR.", "widget":"slider", "min":0.1, "max":3, "step":0.05}'
+    - '// @input float grabWidthMultiplier = 1.8 {"hint":"Width multiplier while the button or divider is grabbed.", "widget":"slider", "min":1, "max":4, "step":0.1}'
+    - '// @input vec4 blockedColor = "{1, 0.32, 0.3, 1}" {"hint":"PATH BLOCKED color (line + label).", "widget":"color"}'
+    - '// @input vec4 clearColor = "{0.35, 1, 0.45, 1}" {"hint":"DIRECT PATH CLEAR color (line + label).", "widget":"color"}'
+    - '// @input vec4 tooFarColor = "{1, 0.72, 0.2, 1}" {"hint":"TOO FAR color (line + label).", "widget":"color"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Debug"}'
+    - '// @input bool debugSelfTest {"hint":"DEBUG ONLY (default off). Moves button/divider through the drag code path to exercise every verdict; verdicts still come from live transforms."}'
+    - '// @ui {"widget":"group_end"}'
